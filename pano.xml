@@ -474,13 +474,15 @@
       <level height="500" preload="1" width="500" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="66.9104">
       <start pan="-134" tilt="0" projection="4" fov="70"/>
       <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270"/>
     </view>
-    <userdata comment="" heading="0" nodeid="node27" title="Boardroom" latitude="" tags="Public_Area" info="Boardroom" source="" longitude="" datetime="" customnodeid="" description="" copyright="" author=""/>
+    <userdata comment="" heading="66.9104" nodeid="node27" title="Boardroom" latitude="" tags="Public_Area" info="Level 3" source="" longitude="" datetime="" customnodeid="" description="Boardroom" copyright="" author="">
+      <mapcoords y_floorplan_percent="60" y="-0.510864" mapid="Floor_Plan_LEVEL_3" x_floorplan_percent="48.0469" x="1.35132"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" border="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1" width="180" background="1"/>
       <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -497,13 +499,15 @@
       <level height="500" preload="1" width="500" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="94.2386">
       <start pan="-40" tilt="0" projection="4" fov="70"/>
       <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270"/>
     </view>
-    <userdata comment="" heading="0" nodeid="node26" title="Meeting Room 1" latitude="" tags="Public_Area" info="Meeting" source="" longitude="" datetime="" customnodeid="" description="Room 1" copyright="dwp" author="dwp"/>
+    <userdata comment="" heading="94.2386" nodeid="node26" title="Meeting Room 1" latitude="" tags="Public_Area" info="Level 3" source="" longitude="" datetime="" customnodeid="" description="Meeting Room 1" copyright="dwp" author="dwp">
+      <mapcoords y_floorplan_percent="63.871" y="-0.543823" mapid="Floor_Plan_LEVEL_3" x_floorplan_percent="66.6016" x="1.87317"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" border="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1" width="180" background="1"/>
       <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -520,13 +524,15 @@
       <level height="500" preload="1" width="500" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="79.7342">
       <start pan="-43" tilt="0" projection="4" fov="70"/>
       <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270"/>
     </view>
-    <userdata comment="" heading="0" nodeid="node25" title="Meeting Room 2" latitude="" tags="Public_Area" info="Meeting" source="" longitude="" datetime="" customnodeid="" description="Room 2" copyright="" author=""/>
+    <userdata comment="" heading="79.7342" nodeid="node25" title="Meeting Room 2" latitude="" tags="Public_Area" info="Level 3" source="" longitude="" datetime="" customnodeid="" description="Meeting Room 2" copyright="" author="">
+      <mapcoords y_floorplan_percent="61.9355" y="-0.527344" mapid="Floor_Plan_LEVEL_3" x_floorplan_percent="80.2734" x="2.25769"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" border="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1" width="180" background="1"/>
       <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -543,13 +549,15 @@
       <level height="500" preload="1" width="500" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="84.8883">
       <start pan="-104" tilt="0" projection="4" fov="70"/>
       <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
       <max pan="360" tilt="90" fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270"/>
     </view>
-    <userdata comment="" heading="0" nodeid="node24" title="Break Out Area" latitude="" tags="Public_Area" info="Break Out" source="" longitude="" datetime="" customnodeid="" description="Area" copyright="dwp" author="dwp"/>
+    <userdata comment="" heading="84.8883" nodeid="node24" title="Break Out Area" latitude="" tags="Public_Area" info="Level 3" source="" longitude="" datetime="" customnodeid="" description="Break Out Area" copyright="dwp" author="dwp">
+      <mapcoords y_floorplan_percent="76.7742" y="-0.653687" mapid="Floor_Plan_LEVEL_3" x_floorplan_percent="39.8438" x="1.12061"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" border="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textalpha="1" width="180" background="1"/>
       <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -568,4 +576,5 @@
   <map floorplannorth="0" transparent="0" height="950" zoomlevels="1" title="" id="Floor_Plan_Twin_Summer" bgcolor="rgba(255, 255, 255, 1)" type="file" width="512" tileformat="jpg"/>
   <map floorplannorth="0" transparent="0" height="950" zoomlevels="1" title="" id="Floor_Plan_Twin_Autumn" bgcolor="rgba(255, 255, 255, 1)" type="file" width="512" tileformat="jpg"/>
   <map floorplannorth="0" transparent="0" height="950" zoomlevels="1" title="" id="Floor_Plan_Twin_Winter" bgcolor="rgba(255, 255, 255, 1)" type="file" width="512" tileformat="jpg"/>
+  <map floorplannorth="0" transparent="0" height="155" zoomlevels="1" title="" id="Floor_Plan_LEVEL_3" bgcolor="rgba(255, 255, 255, 1)" type="file" width="512" tileformat="jpg"/>
 </tour>
