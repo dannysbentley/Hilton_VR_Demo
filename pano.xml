@@ -45,9 +45,9 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-277.1" url="{node30}" id="Point01" tilt="-12.78" title="Social Space" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-222.63" url="{node31}" id="Point02" tilt="-9.43" title="Dining" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-118.03" url="{node34}" id="Point04" tilt="-19.85" title="Shop" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-110.72" url="{node30}" id="Point01" tilt="-8.47" title="Social Space" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-61.82" url="{node31}" id="Point02" tilt="-7.27" title="Dining" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-245.67" url="{node34}" id="Point04" tilt="-29.64" title="Shop" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -73,7 +73,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-230.16" url="{node29}" id="Point01" tilt="-15.69" title="Lobby" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-230.19" url="{node29}" id="Point01" tilt="-15.82" title="Lobby" description=""/>
       <hotspot target="" skinid="ht_node" pan="-202.28" url="{node30}" id="Point02" tilt="-5.9" title="Social Space" description=""/>
       <hotspot target="" skinid="ht_node" pan="-162.27" url="{node31}" id="Point03" tilt="-3.87" title="Dining" description=""/>
     </hotspots>
@@ -129,8 +129,7 @@
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
       <hotspot target="" skinid="ht_node" pan="-204.42" url="{node29}" id="Point01" tilt="2.05" title="Lobby" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-169.25" url="{node30}" id="Point02" tilt="0.79" title="Social Space" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-4.78" url="{node36}" id="Point03" tilt="-0.14" title="Dining Style 1 - Back (Closed)" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-4.78" url="{node36}" id="Point03" tilt="-0.14" title="Dining Style 1 - Back Closed" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -144,17 +143,20 @@
       <level height="480" width="480" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="-186.068">
       <start pan="0" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
       <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="panoramas" longitude="" source="Dinning" latitude="" customnodeid="" datetime="" title="Style 1 - Front Open" description="Style 1-Close" info="Ground Level" author="dwp " copyright="" nodeid="node43" heading="0"/>
+    <userdata comment="" tags="Dinning_Options" longitude="" source="Dinning" latitude="" customnodeid="" datetime="" title="Style 1 - Front Open" description="Style 1-Open" info="Ground Level" author="dwp " copyright="" nodeid="node43" heading="-186.068">
+      <mapcoords y_floorplan_percent="62.3047" mapid="Floor_Plan_LEVEL_1" x="0.598755" y="-1.75232" x_floorplan_percent="35.3896"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-4.56" url="{node37}" id="Point01" tilt="0.8" title="Dining Style 1 - Back (Open)" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-4.56" url="{node37}" id="Point01" tilt="0.8" title="Dining Style 1 - Back Open" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-204.67" url="{node29}" id="Point02" tilt="1.74" title="Lobby" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -168,19 +170,20 @@
       <level height="480" width="480" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="177.56">
+    <view fovmode="0" pannorth="177.095">
       <start pan="3" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
       <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="Dinning_Options" longitude="" source="Dinning" latitude="" customnodeid="" datetime="" title="Style 2 - Front Closed" description="Style 2-Close" info="Ground Level" author="dwp" copyright="dwp" nodeid="node35" heading="177.56">
+    <userdata comment="" tags="Dinning_Options" longitude="" source="Dinning" latitude="" customnodeid="" datetime="" title="Style 2 - Front Closed" description="Style 2-Close" info="Ground Level" author="dwp" copyright="dwp" nodeid="node35" heading="177.095">
       <mapcoords y_floorplan_percent="62.1094" mapid="Floor_Plan_LEVEL_1" x="0.604248" y="-1.74683" x_floorplan_percent="35.7143"/>
     </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-5.34" url="{node39}" id="Point01" tilt="-0.13" title="Dining Option 2 -Back (Closed View)" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-5.34" url="{node39}" id="Point01" tilt="-0.13" title="Dining Option 2 -Back Closed" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-203.04" url="{node29}" id="Point02" tilt="3.48" title="Lobby" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -194,17 +197,20 @@
       <level height="480" width="480" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="-182.95">
       <start pan="3" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
       <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="Dinning_Options" longitude="" source="Dinning" latitude="" customnodeid="" datetime="" title="Style 2 - Front Open" description="Style 2-Open" info="Ground Level" author="dwp" copyright="dwp" nodeid="node40" heading="0"/>
+    <userdata comment="" tags="Dinning_Options" longitude="" source="Dinning" latitude="" customnodeid="" datetime="" title="Style 2 - Front Open" description="Style 2-Open" info="Ground Level" author="dwp" copyright="dwp" nodeid="node40" heading="-182.95">
+      <mapcoords y_floorplan_percent="62.1094" mapid="Floor_Plan_LEVEL_1" x="0.593262" y="-1.74683" x_floorplan_percent="35.0649"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-5.98" url="{node39}" id="Point01" tilt="-1.26" title="Dining Option 2 -Back (Closed View)" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-5.98" url="{node39}" id="Point01" tilt="-1.26" title="Dining Option 2 -Back Closed" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-201.95" url="{node29}" id="Point02" tilt="2.22" title="Lobby" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -218,13 +224,15 @@
       <level height="480" width="480" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="189.088">
       <start pan="15" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
       <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="" title="Dining Style 1 - Back (Closed)" description="Style 1-Back Closed" info="Ground Level" author="dwp" copyright="" nodeid="node36" heading="0"/>
+    <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="" title="Dining Style 1 - Back Closed" description="Style 1-Back Closed" info="Ground Level" author="dwp" copyright="" nodeid="node36" heading="189.088">
+      <mapcoords y_floorplan_percent="72.8516" mapid="Floor_Plan_LEVEL_1" x="0.714111" y="-2.04895" x_floorplan_percent="42.2078"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
@@ -242,17 +250,19 @@
       <level height="480" width="480" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="-170.473">
       <start pan="15" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
       <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="" title="Dining Style 1 - Back (Open)" description="Style 1-Back Open" info="Ground Level" author="dwp" copyright="" nodeid="node37" heading="0"/>
+    <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="" title="Dining Style 1 - Back Open" description="Style 1-Back Open" info="Ground Level" author="dwp" copyright="" nodeid="node37" heading="-170.473">
+      <mapcoords y_floorplan_percent="72.8516" mapid="Floor_Plan_LEVEL_1" x="0.719604" y="-2.04895" x_floorplan_percent="42.5325"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-185.25" url="{node43}" id="Point01" tilt="-4.08" title="Style 1 - Front Open" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-193.79" url="{node43}" id="Point01" tilt="-5.07" title="Style 1 - Front Open" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -266,13 +276,15 @@
       <level height="480" width="480" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="-170.431">
       <start pan="15" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
       <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="" title="Dining Option 2 -Back (Closed View)" description="Style 2-Back Closed" info="Ground Level" author="dwp" copyright="" nodeid="node39" heading="0"/>
+    <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="" title="Dining Option 2 -Back Closed" description="Style 2-Back Closed" info="Ground Level" author="dwp" copyright="" nodeid="node39" heading="-170.431">
+      <mapcoords y_floorplan_percent="72.8516" mapid="Floor_Plan_LEVEL_1" x="0.719604" y="-2.04895" x_floorplan_percent="42.5325"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
@@ -595,8 +607,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-298.53" url="{node19}" id="Point01" tilt="-20.52" title="Twin Bathroom Spring" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-271.64" url="{node23}" id="Point02" tilt="-7.55" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-292.23" url="{node19}" id="Point01" tilt="-21.34" title="Twin Bathroom Spring" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-271.49" url="{node23}" id="Point02" tilt="-8.03" title="Corridor" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -622,7 +634,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-116.26" url="{node6}" id="Point01" tilt="-32" title="Twin" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-98.99" url="{node6}" id="Point01" tilt="-35.64" title="Twin" description=""/>
       <hotspot target="" skinid="ht_node" pan="-256.01" url="{node23}" id="Point02" tilt="-11.66" title="Corridor" description=""/>
     </hotspots>
     <media/>
@@ -649,8 +661,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-287.79" url="{node20}" id="Point01" tilt="-24.02" title="Twin Bathroom Summer" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-265.8" url="{node23}" id="Point02" tilt="-8.06" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-291.94" url="{node20}" id="Point01" tilt="-18.34" title="Twin Bathroom Summer" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-272.44" url="{node23}" id="Point02" tilt="-7.86" title="Corridor" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -676,8 +688,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-117.48" url="{node7}" id="Point01" tilt="-33.64" title="Twin Summer" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-256.27" url="{node23}" id="Point02" tilt="-10.42" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-101.66" url="{node7}" id="Point01" tilt="-34.34" title="Twin Summer" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-266.66" url="{node23}" id="Point02" tilt="-12.19" title="Corridor" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -703,8 +715,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-287.75" url="{node18}" id="Point01" tilt="-28.14" title="Twin Bathroom Autumn" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-266.03" url="{node23}" id="Point02" tilt="-7.21" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-292.5" url="{node18}" id="Point01" tilt="-19.46" title="Twin Bathroom Autumn" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-272.01" url="{node23}" id="Point02" tilt="-7.04" title="Corridor" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -730,8 +742,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-119.52" url="{node16}" id="Point01" tilt="-35.88" title="Twin Autumn" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-256.39" url="{node23}" id="Point02" tilt="-9.82" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-99.8" url="{node16}" id="Point01" tilt="-34.69" title="Twin Autumn" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-266.07" url="{node23}" id="Point02" tilt="-10.5" title="Corridor" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -757,8 +769,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-288.41" url="{node21}" id="Point01" tilt="-24.42" title="Twin Bathroom Winter" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-265.91" url="{node23}" id="Point02" tilt="-7.55" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-291.41" url="{node21}" id="Point01" tilt="-16.18" title="Twin Bathroom Winter" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-270.93" url="{node23}" id="Point02" tilt="-7.73" title="Corridor" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -784,8 +796,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-116.07" url="{node8}" id="Point01" tilt="-37.37" title="Twin Winter" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-256.14" url="{node23}" id="Point02" tilt="-9.58" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-102.97" url="{node8}" id="Point01" tilt="-36.72" title="Twin Winter" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-266.69" url="{node23}" id="Point02" tilt="-10.54" title="Corridor" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -800,10 +812,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="180.881">
-      <start pan="-25" tilt="0" fov="70" projection="4"/>
+      <start pan="1" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="-180" fovpixel="1" tilt="-64.492"/>
-      <max pan="180" fovstereographic="270" fovfisheye="360" tilt="64.492" fov="100"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="100"/>
     </view>
     <userdata comment="" tags="Guestrooms" longitude="" source="" latitude="" customnodeid="" datetime="" title="Suite" description="Entrance" info="Suite" author="dwp" copyright="dwp" nodeid="node14" heading="180.881">
       <mapcoords y_floorplan_percent="20.9016" mapid="Suite_Floor_Plan" x="2.42249" y="-0.560303" x_floorplan_percent="86.1328"/>
@@ -812,8 +824,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-12.22" url="{node15}" id="Point01" tilt="-17.3" title="Suite Livingroom" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-59.91" url="{node13}" id="Point02" tilt="-19.26" title="Suite Bedroom Closed" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-357.37" url="{node15}" id="Point01" tilt="-21.09" title="Suite Livingroom" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-30.09" url="{node13}" id="Point02" tilt="-18.47" title="Suite Bedroom Closed" description=""/>
       <hotspot target="" skinid="ht_node" pan="-180.62" url="{node23}" id="Point03" tilt="-6.21" title="Corridor" description=""/>
     </hotspots>
     <media/>
@@ -831,8 +843,8 @@
     <view fovmode="0" pannorth="185.326">
       <start pan="-24" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="-180" fovpixel="2" tilt="-64.492"/>
-      <max pan="180" fovstereographic="270" fovfisheye="360" tilt="64.492" fov="120"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
     <userdata comment="" tags="Suite" longitude="" source="Suite" latitude="" customnodeid="" datetime="" title="Suite Bedroom Closed" description="Bedroom Closed" info="Suite" author="dwp" copyright="dwp" nodeid="node13" heading="185.326">
       <mapcoords y_floorplan_percent="50" mapid="Suite_Floor_Plan" x="0.944824" y="-1.34033" x_floorplan_percent="33.5938"/>
@@ -841,7 +853,7 @@
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
       <hotspot target="" skinid="ht_node" pan="-274.02" url="{node15}" id="Point02" tilt="-31.34" title="Suite Livingroom" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-102.72" url="{node17}" id="Point03" tilt="-20.17" title="Suite Restroom" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-100.89" url="{node17}" id="Point03" tilt="-20.78" title="Suite Restroom" description=""/>
       <hotspot target="" skinid="ht_node" pan="-246.79" url="{node14}" id="Point01" tilt="-25.12" title="Suite" description=""/>
     </hotspots>
     <media/>
@@ -859,8 +871,8 @@
     <view fovmode="0" pannorth="202.49">
       <start pan="54" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="-180" fovpixel="2" tilt="-64.492"/>
-      <max pan="180" fovstereographic="270" fovfisheye="360" tilt="64.492" fov="120"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
     <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="7/31/2022 9:11 PM" title="Suite Livingroom" description="Livingroom" info="Suite" author="dwp" copyright="dwp" nodeid="node15" heading="202.49">
       <mapcoords y_floorplan_percent="51.6393" mapid="Suite_Floor_Plan" x="1.85669" y="-1.38428" x_floorplan_percent="66.0156"/>
@@ -868,9 +880,9 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-51.38" url="{node13}" id="Point01" tilt="-34.09" title="Suite Bedroom Closed" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-195.56" url="{node14}" id="Point02" tilt="-34.17" title="Suite" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-183.53" url="{node23}" id="Point03" tilt="-12.53" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-29.77" url="{node13}" id="Point01" tilt="-19.37" title="Suite Bedroom Closed" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-145.14" url="{node23}" id="Point03" tilt="-15.21" title="Corridor" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-8.98" url="{node15}" id="Point02" tilt="-27.25" title="Suite Livingroom" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -887,8 +899,8 @@
     <view fovmode="0" pannorth="-189.854">
       <start pan="61" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="-180" fovpixel="2" tilt="-64.492"/>
-      <max pan="180" fovstereographic="270" fovfisheye="360" tilt="64.492" fov="120"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
     <userdata comment="" tags="" longitude="" source="" latitude="" customnodeid="" datetime="" title="Suite Restroom" description="Restroom" info="Suite" author="dwp" copyright="dwp" nodeid="node17" heading="-189.854">
       <mapcoords y_floorplan_percent="26.4344" mapid="Suite_Floor_Plan" x="0.576782" y="-0.708618" x_floorplan_percent="20.5078"/>
@@ -896,7 +908,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" pan="-3.4" url="{node13}" id="Point01" tilt="-37.09" title="Suite Bedroom Closed" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-1.94" url="{node13}" id="Point01" tilt="-37.74" title="Suite Bedroom Closed" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -910,19 +922,21 @@
       <level height="281" width="281" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="190.192">
       <start pan="-24" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="-180" fovpixel="2" tilt="-64.492"/>
-      <max pan="180" fovstereographic="270" fovfisheye="360" tilt="64.492" fov="120"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="Suite" longitude="" source="Suite" latitude="" customnodeid="" datetime="" title="Suite Bedroom Open" description="Bedroom Open" info="Suite" author="dwp" copyright="dwp" nodeid="node42" heading="0"/>
+    <userdata comment="" tags="Suite" longitude="" source="Suite" latitude="" customnodeid="" datetime="" title="Suite Bedroom Open" description="Bedroom Open" info="Suite" author="dwp" copyright="dwp" nodeid="node42" heading="190.192">
+      <mapcoords y_floorplan_percent="50" mapid="Suite_Floor_Plan" x="0.933838" y="-1.34033" x_floorplan_percent="33.2031"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
       <hotspot target="" skinid="ht_node" pan="-102.51" url="{node41}" id="Point01" tilt="-31.72" title="Suite Restroom Open" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-273.61" url="{node15}" id="Point02" tilt="-31.46" title="Suite Livingroom" description=""/>
-      <hotspot target="" skinid="ht_node" pan="-247.86" url="{node14}" id="Point03" tilt="-22.7" title="Suite" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-273.84" url="{node15}" id="Point02" tilt="-33.64" title="Suite Livingroom" description=""/>
+      <hotspot target="" skinid="ht_node" pan="-244.57" url="{node14}" id="Point03" tilt="-21.89" title="Suite" description=""/>
     </hotspots>
     <media/>
     <transition zoomfov="30" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomin="0" blendtime="1" zoomafterinfov="90"/>
@@ -936,13 +950,15 @@
       <level height="281" width="281" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
+    <view fovmode="0" pannorth="-189.954">
       <start pan="61" tilt="0" fov="70" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="-180" fovpixel="2" tilt="-64.492"/>
-      <max pan="180" fovstereographic="270" fovfisheye="360" tilt="64.492" fov="120"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120"/>
     </view>
-    <userdata comment="" tags="panoramas" longitude="" source="" latitude="" customnodeid="" datetime="" title="Suite Restroom Open" description="Restroom" info="Suite" author="dwp" copyright="dwp" nodeid="node41" heading="0"/>
+    <userdata comment="" tags="panoramas" longitude="" source="" latitude="" customnodeid="" datetime="" title="Suite Restroom Open" description="Restroom" info="Suite" author="dwp" copyright="dwp" nodeid="node41" heading="-189.954">
+      <mapcoords y_floorplan_percent="26.6393" mapid="Suite_Floor_Plan" x="0.571289" y="-0.714111" x_floorplan_percent="20.3125"/>
+    </userdata>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" borderradius="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" borderalpha="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>

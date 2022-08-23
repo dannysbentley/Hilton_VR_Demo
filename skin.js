@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.15/18116
 // Filename: Hilton-skin_v61_V2.ggsk
-// Generated 2022-08-23T09:15:07
+// Generated 2022-08-23T10:01:03
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -5927,7 +5927,7 @@ function pano2vrSkin(player,base) {
 		els=me._config_button__img=document.createElement('img');
 		els.className='ggskin ggskin_config_button';
 		hs='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QHTaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA1LjYuMCI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMj'+
-			'ItMDgtMjNUMDk6MTU6MDYrMDc6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIyLTA4LTIzVDA5OjE1OjA2KzA3OjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjE1Ii8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+/9sAQwD//////////////////////////////////////////////////////////////////////////////////////9sAQwH//////////////////////////////////////////////////////////////////////////////////////8AAEQgAHQAgAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYH'+
+			'ItMDgtMjNUMTA6MDE6MDIrMDc6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIyLTA4LTIzVDEwOjAxOjAyKzA3OjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjE1Ii8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+/9sAQwD//////////////////////////////////////////////////////////////////////////////////////9sAQwH//////////////////////////////////////////////////////////////////////////////////////8AAEQgAHQAgAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYH'+
 			'CAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4'+
 			'iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8ASigUetABj3oo7UlACiikooAXtSUUUAf/2Q==';
 		els.setAttribute('src',hs);
@@ -12658,7 +12658,7 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._restart_start_suite.onclick=function (e) {
-			player.setPanTiltFov(-25,0,70);
+			player.setPanTiltFov(1,0,70);
 		}
 		me._restart_start_suite.onmouseover=function (e) {
 			me._restart_start_suite__img.style.visibility='hidden';
@@ -12671,6 +12671,579 @@ function pano2vrSkin(player,base) {
 		me._restart_start_suite.ggUpdatePosition=function (useTransition) {
 		}
 		me._controller_slider.appendChild(me._restart_start_suite);
+		el=me._restart_start_all_day_dining_option_2_back_closed=document.createElement('div');
+		els=me._restart_start_all_day_dining_option_2_back_closed__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZpZXdCb3g9Ii0yNDAgMzMyIDEzMCAxMzAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGJhc2VQcm9maWxlPSJ0aW55IiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiA8ZyBpZD0iTG'+
+			'F5ZXJfMV8xXyI+CiAgPHBhdGggZD0iTS0xNzUsMzQwLjljLTMxLDAtNTYuMSwyNS4xLTU2LjEsNTYuMXMyNS4xLDU2LjEsNTYuMSw1Ni4xYzMxLDAsNTYuMS0yNS4xLDU2LjEtNTYuMVMtMTQ0LDM0MC45LTE3NSwzNDAuOSYjeGQ7JiN4YTsmI3g5OyYjeDk7eiBNLTE1My45LDQyMy42Yy01LjgsNC42LTEzLjEsNy40LTIxLjEsNy40aDBjLTE4LjcsMC0zNC0xNS4yLTM0LTM0aC0wLjVoLTcuN2MtMC41LDAtMC44LTAuMi0xLjEtMC43Yy0wLjMtMC41LTAuMi0xLDAuMS0xLjMmI3hkOyYjeGE7JiN4OTsmI3g5O2wxMi43LTE3LjhjMC4zLTAuNCwwLjYtMC42LDEuMS0wLjZjMC40LDAsMC43LDAuMiwx'+
+			'LDAuNmwxMi44LDE3LjhjMC4zLDAuNCwwLjQsMC45LDAuMSwxLjNjLTAuMywwLjUtMC42LDAuNy0xLjEsMC43aC03LjZoLTAuNyYjeGQ7JiN4YTsmI3g5OyYjeDk7YzAsMTMuOCwxMS4yLDI1LDI1LDI1aDBjNS44LDAsMTEuMS0yLDE1LjMtNS4zYzAuNi0wLjUsMS40LTAuNCwyLDAuMmMwLjUsMC41LDMuMSwzLjUsNCw0LjRDLTE1My4xLDQyMi0xNTMuMiw0MjMuMS0xNTMuOSw0MjMuNnomI3hkOyYjeGE7JiN4OTsmI3g5OyBNLTE3OSwzOTdjMC0yLjIsMS44LTQsNC00YzIuMiwwLDQsMS44LDQsNGMwLDIuMi0xLjgsNC00LDRDLTE3Ny4yLDQwMS0xNzksMzk5LjItMTc5LDM5N3ogTS0xNDQuNSw0MT'+
+			'YuOSYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjMsMC40LTAuNiwwLjYtMS4xLDAuNmMtMC40LDAtMC43LTAuMi0xLTAuNmwtMTIuOC0xNy44Yy0wLjMtMC40LTAuNC0wLjktMC4xLTEuM2MwLjMtMC41LDAuNi0wLjcsMS4xLTAuN2g3LjZoMC43JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMC0xMy44LTExLjItMjUtMjUtMjVoMGMtNS44LDAtMTEuMSwyLTE1LjMsNS4zYy0wLjYsMC41LTEuNCwwLjQtMi0wLjJjLTAuNS0wLjUtMy4xLTMuNS00LTQuNGMtMC42LTAuNy0wLjYtMS44LDAuMS0yLjMmI3hkOyYjeGE7JiN4OTsmI3g5O2M1LjgtNC42LDEzLjEtNy40LDIxLjEtNy40aDBjMTguNywwLDM0LDE1LjIs'+
+			'MzQsMzRoMC41aDcuN2MwLjUsMCwwLjgsMC4yLDEuMSwwLjdjMC4zLDAuNSwwLjIsMS0wLjEsMS4zTC0xNDQuNSw0MTYuOXoiIGZpbGw9IiMwMDAwMDAiLz4KIDwvZz4KIDxnIGlkPSJMYXllcl8yIj4KICA8cGF0aCBkPSJNLTE1My43LDQyMS4zYy0wLjgtMC45LTMuNS0zLjktNC00LjRjLTAuNi0wLjYtMS40LTAuNi0yLTAuMmMtNC4yLDMuMy05LjUsNS4zLTE1LjMsNS4zaDAmI3hkOyYjeGE7JiN4OTsmI3g5O2MtMTMuOCwwLTI1LTExLjItMjUtMjVoMC43aDcuNmMwLjUsMCwwLjgtMC4yLDEuMS0wLjdjMC4zLTAuNSwwLjItMS0wLjEtMS4zbC0xMi44LTE3LjhjLTAuMy0wLjQtMC42LTAuNi0xLT'+
+			'AuNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjgsMC4yLTEuMSwwLjZsLTEyLjcsMTcuOGMtMC4zLDAuNC0wLjQsMC45LTAuMSwxLjNjMC4zLDAuNSwwLjYsMC43LDEuMSwwLjdoNy43aDAuNWMwLDE4LjcsMTUuMiwzNCwzNCwzNGgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjOCwwLDE1LjMtMi44LDIxLjEtNy40Qy0xNTMuMiw0MjMuMS0xNTMuMSw0MjItMTUzLjcsNDIxLjN6IiBmaWxsPSIjRkZGRkZGIi8+CiAgPHBhdGggZD0iTS0xMzEuNywzOTcuN2MtMC4zLTAuNS0wLjYtMC43LTEuMS0wLjdoLTcuN2gtMC41YzAtMTguNy0xNS4yLTM0LTM0LTM0aDBjLTgsMC0xNS4zLDIuOC0yMS4xLDcu'+
+			'NCYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjcsMC41LTAuOCwxLjYtMC4xLDIuM2MwLjgsMC45LDMuNSwzLjksNCw0LjRjMC42LDAuNiwxLjQsMC42LDIsMC4yYzQuMi0zLjMsOS41LTUuMywxNS4zLTUuM2gwYzEzLjgsMCwyNSwxMS4yLDI1LDI1aC0wLjcmI3hkOyYjeGE7JiN4OTsmI3g5O2gtNy42Yy0wLjUsMC0wLjgsMC4yLTEuMSwwLjdjLTAuMywwLjUtMC4yLDEsMC4xLDEuM2wxMi44LDE3LjhjMC4zLDAuNCwwLjYsMC42LDEsMC42YzAuNSwwLDAuOC0wLjIsMS4xLTAuNmwxMi43LTE3LjgmI3hkOyYjeGE7JiN4OTsmI3g5O0MtMTMxLjUsMzk4LjctMTMxLjQsMzk4LjItMTMxLjcsMzk3Ljd6Ii'+
+			'BmaWxsPSIjRkZGRkZGIi8+CiAgPGNpcmNsZSBjeT0iMzk3IiBjeD0iLTE3NSIgcj0iNCIgZmlsbD0iI0ZGRkZGRiIvPgogPC9nPgo8L3N2Zz4K';
+		me._restart_start_all_day_dining_option_2_back_closed__img.setAttribute('src',hs);
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		elo=me._restart_start_all_day_dining_option_2_back_closed__imgo=document.createElement('img');
+		elo.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZpZXdCb3g9Ii0yNDAgMzMyIDEzMCAxMzAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGJhc2VQcm9maWxlPSJ0aW55IiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiA8ZyBpZD0iTG'+
+			'F5ZXJfMV8xXyI+CiAgPHBhdGggZD0iTS0xNzUsMzM0LjdjLTM0LjQsMC02Mi40LDI3LjktNjIuNCw2Mi40czI3LjksNjIuNCw2Mi40LDYyLjRjMzQuNCwwLDYyLjQtMjcuOSw2Mi40LTYyLjQmI3hkOyYjeGE7JiN4OTsmI3g5O1MtMTQwLjYsMzM0LjctMTc1LDMzNC43eiBNLTE1MS41LDQyNi42Yy02LjQsNS4xLTE0LjYsOC4yLTIzLjUsOC4yaDBjLTIwLjgsMC0zNy43LTE2LjktMzcuNy0zNy43aC0wLjZoLTguNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjktMC4yLTEuMi0wLjdjLTAuMy0wLjUtMC4yLTEuMSwwLjEtMS41bDE0LjEtMTkuOGMwLjMtMC40LDAuNi0wLjYsMS4yLTAuNmMw'+
+			'LjQsMCwwLjcsMC4yLDEuMSwwLjZsMTQuMiwxOS44JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMC4zLDAuNCwwLjQsMSwwLjEsMS41Yy0wLjMsMC41LTAuNiwwLjctMS4yLDAuN2gtOC40aC0wLjdjMCwxNS4zLDEyLjQsMjcuNywyNy43LDI3LjdoMGM2LjQsMCwxMi4zLTIuMiwxNy01LjkmI3hkOyYjeGE7JiN4OTsmI3g5O2MwLjctMC41LDEuNi0wLjQsMi4yLDAuMmMwLjYsMC42LDMuNSwzLjgsNC40LDQuOUMtMTUwLjcsNDI0LjgtMTUwLjcsNDI2LTE1MS41LDQyNi42eiBNLTE3OS40LDM5N2MwLTIuNCwyLTQuNCw0LjQtNC40JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMi40LDAsNC40LDIsNC40LDQuNGMwLD'+
+			'IuNC0yLDQuNC00LjQsNC40Qy0xNzcuNCw0MDEuNC0xNzkuNCwzOTkuNS0xNzkuNCwzOTd6IE0tMTQxLjEsNDE5LjFjLTAuMywwLjQtMC42LDAuNi0xLjIsMC42JiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTAuNCwwLTAuNy0wLjItMS4xLTAuNmwtMTQuMi0xOS44Yy0wLjMtMC40LTAuNC0xLTAuMS0xLjVjMC4zLTAuNSwwLjYtMC43LDEuMi0wLjdoOC40aDAuN2MwLTE1LjMtMTIuNC0yNy43LTI3LjctMjcuN2gwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTYuNCwwLTEyLjMsMi4yLTE3LDUuOWMtMC43LDAuNS0xLjYsMC40LTIuMi0wLjJjLTAuNi0wLjYtMy41LTMuOC00LjQtNC45Yy0wLjctMC44LTAuNi0y'+
+			'LDAuMi0yLjZjNi40LTUuMSwxNC42LTguMiwyMy41LTguMmgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjMjAuOCwwLDM3LjcsMTYuOSwzNy43LDM3LjdoMC42aDguNmMwLjUsMCwwLjksMC4yLDEuMiwwLjdjMC4zLDAuNSwwLjIsMS4xLTAuMSwxLjVMLTE0MS4xLDQxOS4xeiIgZmlsbD0iIzAwMDAwMCIvPgogPC9nPgogPGcgaWQ9IkxheWVyXzIiPgogIDxwYXRoIGQ9Ik0tMTUxLjQsNDI0Yy0wLjktMS0zLjktNC4zLTQuNC00LjljLTAuNi0wLjYtMS41LTAuNy0yLjItMC4yYy00LjcsMy43LTEwLjYsNS45LTE3LDUuOWgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTE1LjMsMC0yNy43LTEyLjQtMjcuNy0yNy'+
+			'43aDAuN2g4LjRjMC41LDAsMC45LTAuMiwxLjItMC43czAuMi0xLjEtMC4xLTEuNWwtMTQuMi0xOS44Yy0wLjMtMC40LTAuNi0wLjYtMS4xLTAuNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjksMC4yLTEuMiwwLjZsLTE0LjEsMTkuOGMtMC4zLDAuNC0wLjQsMS0wLjEsMS41YzAuMywwLjUsMC42LDAuNywxLjIsMC43aDguNmgwLjZjMCwyMC44LDE2LjksMzcuNywzNy43LDM3LjdoMCYjeGQ7JiN4YTsmI3g5OyYjeDk7YzguOSwwLDE3LTMuMSwyMy41LTguMkMtMTUwLjcsNDI2LTE1MC43LDQyNC44LTE1MS40LDQyNHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8cGF0aCBkPSJNLTEyNi45LDM5'+
+			'Ny44Yy0wLjMtMC41LTAuNi0wLjctMS4yLTAuN2gtOC42aC0wLjZjMC0yMC44LTE2LjktMzcuNy0zNy43LTM3LjdoMGMtOC45LDAtMTcsMy4xLTIzLjUsOC4yJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTAuOCwwLjYtMC44LDEuOC0wLjIsMi42YzAuOSwxLDMuOSw0LjMsNC40LDQuOWMwLjYsMC42LDEuNSwwLjcsMi4yLDAuMmM0LjctMy43LDEwLjYtNS45LDE3LTUuOWgwYzE1LjMsMCwyNy43LDEyLjQsMjcuNywyNy43JiN4ZDsmI3hhOyYjeDk7JiN4OTtoLTAuN2gtOC40Yy0wLjUsMC0wLjksMC4yLTEuMiwwLjdjLTAuMywwLjUtMC4yLDEuMSwwLjEsMS41bDE0LjIsMTkuOGMwLjMsMC40LDAuNiwwLj'+
+			'YsMS4xLDAuNmMwLjUsMCwwLjktMC4yLDEuMi0wLjZsMTQuMS0xOS44JiN4ZDsmI3hhOyYjeDk7JiN4OTtDLTEyNi43LDM5OC45LTEyNi42LDM5OC4zLTEyNi45LDM5Ny44eiIgZmlsbD0iI0ZGRkZGRiIvPgogIDxjaXJjbGUgY3k9IjM5NyIgY3g9Ii0xNzUiIHI9IjQuNCIgZmlsbD0iI0ZGRkZGRiIvPgogPC9nPgo8L3N2Zz4K';
+		me._restart_start_all_day_dining_option_2_back_closed__imgo.setAttribute('src',hs);
+		elo.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;visibility:hidden;pointer-events:none;;');
+		elo['ondragstart']=function() { return false; };
+		el.appendChild(elo);
+		el.ggId="restart_start_All_Day_Dining Option 2 -Back Closed";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 32px;';
+		hs+='left : 64px;';
+		hs+='opacity : 0.5;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : hidden;';
+		hs+='width : 32px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._restart_start_all_day_dining_option_2_back_closed.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._restart_start_all_day_dining_option_2_back_closed.logicBlock_position = function() {
+			var newLogicStatePosition;
+			if (
+				((player.getVariableValue('pos_fullscreen') == 0))
+			)
+			{
+				newLogicStatePosition = 0;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 1))
+			)
+			{
+				newLogicStatePosition = 1;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 2))
+			)
+			{
+				newLogicStatePosition = 2;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 3))
+			)
+			{
+				newLogicStatePosition = 3;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 4))
+			)
+			{
+				newLogicStatePosition = 4;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 5))
+			)
+			{
+				newLogicStatePosition = 5;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 6))
+			)
+			{
+				newLogicStatePosition = 6;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 7))
+			)
+			{
+				newLogicStatePosition = 7;
+			}
+			else {
+				newLogicStatePosition = -1;
+			}
+			if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me._restart_start_all_day_dining_option_2_back_closed.style[domTransition]='left 0s, top 0s';
+				if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 0) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='0px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 1) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='32px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 2) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='96px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 3) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='160px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 4) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='160px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 5) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='160px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 6) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='192px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStatePosition == 7) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='224px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+				else {
+					me._restart_start_all_day_dining_option_2_back_closed.style.left='64px';
+					me._restart_start_all_day_dining_option_2_back_closed.style.top='0px';
+				}
+			}
+		}
+		me._restart_start_all_day_dining_option_2_back_closed.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((me.ggUserdata.title == "Dining Option 2 -Back Closed"))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._restart_start_all_day_dining_option_2_back_closed.style[domTransition]='left 0s, top 0s';
+				if (me._restart_start_all_day_dining_option_2_back_closed.ggCurrentLogicStateVisible == 0) {
+					me._restart_start_all_day_dining_option_2_back_closed.style.visibility=(Number(me._restart_start_all_day_dining_option_2_back_closed.style.opacity)>0||!me._restart_start_all_day_dining_option_2_back_closed.style.opacity)?'inherit':'hidden';
+					me._restart_start_all_day_dining_option_2_back_closed.ggVisible=true;
+				}
+				else {
+					me._restart_start_all_day_dining_option_2_back_closed.style.visibility="hidden";
+					me._restart_start_all_day_dining_option_2_back_closed.ggVisible=false;
+				}
+			}
+		}
+		me._restart_start_all_day_dining_option_2_back_closed.onclick=function (e) {
+			player.setPanTiltFov(15,0,70);
+		}
+		me._restart_start_all_day_dining_option_2_back_closed.onmouseover=function (e) {
+			me._restart_start_all_day_dining_option_2_back_closed__img.style.visibility='hidden';
+			me._restart_start_all_day_dining_option_2_back_closed__imgo.style.visibility='inherit';
+		}
+		me._restart_start_all_day_dining_option_2_back_closed.onmouseout=function (e) {
+			me._restart_start_all_day_dining_option_2_back_closed__img.style.visibility='inherit';
+			me._restart_start_all_day_dining_option_2_back_closed__imgo.style.visibility='hidden';
+		}
+		me._restart_start_all_day_dining_option_2_back_closed.ggUpdatePosition=function (useTransition) {
+		}
+		me._controller_slider.appendChild(me._restart_start_all_day_dining_option_2_back_closed);
+		el=me._restart_start_all_day_dining_style_1_back_open=document.createElement('div');
+		els=me._restart_start_all_day_dining_style_1_back_open__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZpZXdCb3g9Ii0yNDAgMzMyIDEzMCAxMzAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGJhc2VQcm9maWxlPSJ0aW55IiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiA8ZyBpZD0iTG'+
+			'F5ZXJfMV8xXyI+CiAgPHBhdGggZD0iTS0xNzUsMzQwLjljLTMxLDAtNTYuMSwyNS4xLTU2LjEsNTYuMXMyNS4xLDU2LjEsNTYuMSw1Ni4xYzMxLDAsNTYuMS0yNS4xLDU2LjEtNTYuMVMtMTQ0LDM0MC45LTE3NSwzNDAuOSYjeGQ7JiN4YTsmI3g5OyYjeDk7eiBNLTE1My45LDQyMy42Yy01LjgsNC42LTEzLjEsNy40LTIxLjEsNy40aDBjLTE4LjcsMC0zNC0xNS4yLTM0LTM0aC0wLjVoLTcuN2MtMC41LDAtMC44LTAuMi0xLjEtMC43Yy0wLjMtMC41LTAuMi0xLDAuMS0xLjMmI3hkOyYjeGE7JiN4OTsmI3g5O2wxMi43LTE3LjhjMC4zLTAuNCwwLjYtMC42LDEuMS0wLjZjMC40LDAsMC43LDAuMiwx'+
+			'LDAuNmwxMi44LDE3LjhjMC4zLDAuNCwwLjQsMC45LDAuMSwxLjNjLTAuMywwLjUtMC42LDAuNy0xLjEsMC43aC03LjZoLTAuNyYjeGQ7JiN4YTsmI3g5OyYjeDk7YzAsMTMuOCwxMS4yLDI1LDI1LDI1aDBjNS44LDAsMTEuMS0yLDE1LjMtNS4zYzAuNi0wLjUsMS40LTAuNCwyLDAuMmMwLjUsMC41LDMuMSwzLjUsNCw0LjRDLTE1My4xLDQyMi0xNTMuMiw0MjMuMS0xNTMuOSw0MjMuNnomI3hkOyYjeGE7JiN4OTsmI3g5OyBNLTE3OSwzOTdjMC0yLjIsMS44LTQsNC00YzIuMiwwLDQsMS44LDQsNGMwLDIuMi0xLjgsNC00LDRDLTE3Ny4yLDQwMS0xNzksMzk5LjItMTc5LDM5N3ogTS0xNDQuNSw0MT'+
+			'YuOSYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjMsMC40LTAuNiwwLjYtMS4xLDAuNmMtMC40LDAtMC43LTAuMi0xLTAuNmwtMTIuOC0xNy44Yy0wLjMtMC40LTAuNC0wLjktMC4xLTEuM2MwLjMtMC41LDAuNi0wLjcsMS4xLTAuN2g3LjZoMC43JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMC0xMy44LTExLjItMjUtMjUtMjVoMGMtNS44LDAtMTEuMSwyLTE1LjMsNS4zYy0wLjYsMC41LTEuNCwwLjQtMi0wLjJjLTAuNS0wLjUtMy4xLTMuNS00LTQuNGMtMC42LTAuNy0wLjYtMS44LDAuMS0yLjMmI3hkOyYjeGE7JiN4OTsmI3g5O2M1LjgtNC42LDEzLjEtNy40LDIxLjEtNy40aDBjMTguNywwLDM0LDE1LjIs'+
+			'MzQsMzRoMC41aDcuN2MwLjUsMCwwLjgsMC4yLDEuMSwwLjdjMC4zLDAuNSwwLjIsMS0wLjEsMS4zTC0xNDQuNSw0MTYuOXoiIGZpbGw9IiMwMDAwMDAiLz4KIDwvZz4KIDxnIGlkPSJMYXllcl8yIj4KICA8cGF0aCBkPSJNLTE1My43LDQyMS4zYy0wLjgtMC45LTMuNS0zLjktNC00LjRjLTAuNi0wLjYtMS40LTAuNi0yLTAuMmMtNC4yLDMuMy05LjUsNS4zLTE1LjMsNS4zaDAmI3hkOyYjeGE7JiN4OTsmI3g5O2MtMTMuOCwwLTI1LTExLjItMjUtMjVoMC43aDcuNmMwLjUsMCwwLjgtMC4yLDEuMS0wLjdjMC4zLTAuNSwwLjItMS0wLjEtMS4zbC0xMi44LTE3LjhjLTAuMy0wLjQtMC42LTAuNi0xLT'+
+			'AuNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjgsMC4yLTEuMSwwLjZsLTEyLjcsMTcuOGMtMC4zLDAuNC0wLjQsMC45LTAuMSwxLjNjMC4zLDAuNSwwLjYsMC43LDEuMSwwLjdoNy43aDAuNWMwLDE4LjcsMTUuMiwzNCwzNCwzNGgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjOCwwLDE1LjMtMi44LDIxLjEtNy40Qy0xNTMuMiw0MjMuMS0xNTMuMSw0MjItMTUzLjcsNDIxLjN6IiBmaWxsPSIjRkZGRkZGIi8+CiAgPHBhdGggZD0iTS0xMzEuNywzOTcuN2MtMC4zLTAuNS0wLjYtMC43LTEuMS0wLjdoLTcuN2gtMC41YzAtMTguNy0xNS4yLTM0LTM0LTM0aDBjLTgsMC0xNS4zLDIuOC0yMS4xLDcu'+
+			'NCYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjcsMC41LTAuOCwxLjYtMC4xLDIuM2MwLjgsMC45LDMuNSwzLjksNCw0LjRjMC42LDAuNiwxLjQsMC42LDIsMC4yYzQuMi0zLjMsOS41LTUuMywxNS4zLTUuM2gwYzEzLjgsMCwyNSwxMS4yLDI1LDI1aC0wLjcmI3hkOyYjeGE7JiN4OTsmI3g5O2gtNy42Yy0wLjUsMC0wLjgsMC4yLTEuMSwwLjdjLTAuMywwLjUtMC4yLDEsMC4xLDEuM2wxMi44LDE3LjhjMC4zLDAuNCwwLjYsMC42LDEsMC42YzAuNSwwLDAuOC0wLjIsMS4xLTAuNmwxMi43LTE3LjgmI3hkOyYjeGE7JiN4OTsmI3g5O0MtMTMxLjUsMzk4LjctMTMxLjQsMzk4LjItMTMxLjcsMzk3Ljd6Ii'+
+			'BmaWxsPSIjRkZGRkZGIi8+CiAgPGNpcmNsZSBjeT0iMzk3IiBjeD0iLTE3NSIgcj0iNCIgZmlsbD0iI0ZGRkZGRiIvPgogPC9nPgo8L3N2Zz4K';
+		me._restart_start_all_day_dining_style_1_back_open__img.setAttribute('src',hs);
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		elo=me._restart_start_all_day_dining_style_1_back_open__imgo=document.createElement('img');
+		elo.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZpZXdCb3g9Ii0yNDAgMzMyIDEzMCAxMzAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGJhc2VQcm9maWxlPSJ0aW55IiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiA8ZyBpZD0iTG'+
+			'F5ZXJfMV8xXyI+CiAgPHBhdGggZD0iTS0xNzUsMzM0LjdjLTM0LjQsMC02Mi40LDI3LjktNjIuNCw2Mi40czI3LjksNjIuNCw2Mi40LDYyLjRjMzQuNCwwLDYyLjQtMjcuOSw2Mi40LTYyLjQmI3hkOyYjeGE7JiN4OTsmI3g5O1MtMTQwLjYsMzM0LjctMTc1LDMzNC43eiBNLTE1MS41LDQyNi42Yy02LjQsNS4xLTE0LjYsOC4yLTIzLjUsOC4yaDBjLTIwLjgsMC0zNy43LTE2LjktMzcuNy0zNy43aC0wLjZoLTguNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjktMC4yLTEuMi0wLjdjLTAuMy0wLjUtMC4yLTEuMSwwLjEtMS41bDE0LjEtMTkuOGMwLjMtMC40LDAuNi0wLjYsMS4yLTAuNmMw'+
+			'LjQsMCwwLjcsMC4yLDEuMSwwLjZsMTQuMiwxOS44JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMC4zLDAuNCwwLjQsMSwwLjEsMS41Yy0wLjMsMC41LTAuNiwwLjctMS4yLDAuN2gtOC40aC0wLjdjMCwxNS4zLDEyLjQsMjcuNywyNy43LDI3LjdoMGM2LjQsMCwxMi4zLTIuMiwxNy01LjkmI3hkOyYjeGE7JiN4OTsmI3g5O2MwLjctMC41LDEuNi0wLjQsMi4yLDAuMmMwLjYsMC42LDMuNSwzLjgsNC40LDQuOUMtMTUwLjcsNDI0LjgtMTUwLjcsNDI2LTE1MS41LDQyNi42eiBNLTE3OS40LDM5N2MwLTIuNCwyLTQuNCw0LjQtNC40JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMi40LDAsNC40LDIsNC40LDQuNGMwLD'+
+			'IuNC0yLDQuNC00LjQsNC40Qy0xNzcuNCw0MDEuNC0xNzkuNCwzOTkuNS0xNzkuNCwzOTd6IE0tMTQxLjEsNDE5LjFjLTAuMywwLjQtMC42LDAuNi0xLjIsMC42JiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTAuNCwwLTAuNy0wLjItMS4xLTAuNmwtMTQuMi0xOS44Yy0wLjMtMC40LTAuNC0xLTAuMS0xLjVjMC4zLTAuNSwwLjYtMC43LDEuMi0wLjdoOC40aDAuN2MwLTE1LjMtMTIuNC0yNy43LTI3LjctMjcuN2gwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTYuNCwwLTEyLjMsMi4yLTE3LDUuOWMtMC43LDAuNS0xLjYsMC40LTIuMi0wLjJjLTAuNi0wLjYtMy41LTMuOC00LjQtNC45Yy0wLjctMC44LTAuNi0y'+
+			'LDAuMi0yLjZjNi40LTUuMSwxNC42LTguMiwyMy41LTguMmgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjMjAuOCwwLDM3LjcsMTYuOSwzNy43LDM3LjdoMC42aDguNmMwLjUsMCwwLjksMC4yLDEuMiwwLjdjMC4zLDAuNSwwLjIsMS4xLTAuMSwxLjVMLTE0MS4xLDQxOS4xeiIgZmlsbD0iIzAwMDAwMCIvPgogPC9nPgogPGcgaWQ9IkxheWVyXzIiPgogIDxwYXRoIGQ9Ik0tMTUxLjQsNDI0Yy0wLjktMS0zLjktNC4zLTQuNC00LjljLTAuNi0wLjYtMS41LTAuNy0yLjItMC4yYy00LjcsMy43LTEwLjYsNS45LTE3LDUuOWgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTE1LjMsMC0yNy43LTEyLjQtMjcuNy0yNy'+
+			'43aDAuN2g4LjRjMC41LDAsMC45LTAuMiwxLjItMC43czAuMi0xLjEtMC4xLTEuNWwtMTQuMi0xOS44Yy0wLjMtMC40LTAuNi0wLjYtMS4xLTAuNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjksMC4yLTEuMiwwLjZsLTE0LjEsMTkuOGMtMC4zLDAuNC0wLjQsMS0wLjEsMS41YzAuMywwLjUsMC42LDAuNywxLjIsMC43aDguNmgwLjZjMCwyMC44LDE2LjksMzcuNywzNy43LDM3LjdoMCYjeGQ7JiN4YTsmI3g5OyYjeDk7YzguOSwwLDE3LTMuMSwyMy41LTguMkMtMTUwLjcsNDI2LTE1MC43LDQyNC44LTE1MS40LDQyNHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8cGF0aCBkPSJNLTEyNi45LDM5'+
+			'Ny44Yy0wLjMtMC41LTAuNi0wLjctMS4yLTAuN2gtOC42aC0wLjZjMC0yMC44LTE2LjktMzcuNy0zNy43LTM3LjdoMGMtOC45LDAtMTcsMy4xLTIzLjUsOC4yJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTAuOCwwLjYtMC44LDEuOC0wLjIsMi42YzAuOSwxLDMuOSw0LjMsNC40LDQuOWMwLjYsMC42LDEuNSwwLjcsMi4yLDAuMmM0LjctMy43LDEwLjYtNS45LDE3LTUuOWgwYzE1LjMsMCwyNy43LDEyLjQsMjcuNywyNy43JiN4ZDsmI3hhOyYjeDk7JiN4OTtoLTAuN2gtOC40Yy0wLjUsMC0wLjksMC4yLTEuMiwwLjdjLTAuMywwLjUtMC4yLDEuMSwwLjEsMS41bDE0LjIsMTkuOGMwLjMsMC40LDAuNiwwLj'+
+			'YsMS4xLDAuNmMwLjUsMCwwLjktMC4yLDEuMi0wLjZsMTQuMS0xOS44JiN4ZDsmI3hhOyYjeDk7JiN4OTtDLTEyNi43LDM5OC45LTEyNi42LDM5OC4zLTEyNi45LDM5Ny44eiIgZmlsbD0iI0ZGRkZGRiIvPgogIDxjaXJjbGUgY3k9IjM5NyIgY3g9Ii0xNzUiIHI9IjQuNCIgZmlsbD0iI0ZGRkZGRiIvPgogPC9nPgo8L3N2Zz4K';
+		me._restart_start_all_day_dining_style_1_back_open__imgo.setAttribute('src',hs);
+		elo.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;visibility:hidden;pointer-events:none;;');
+		elo['ondragstart']=function() { return false; };
+		el.appendChild(elo);
+		el.ggId="restart_start_All_Day_Dining Style 1 - Back Open";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 32px;';
+		hs+='left : 64px;';
+		hs+='opacity : 0.5;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : hidden;';
+		hs+='width : 32px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._restart_start_all_day_dining_style_1_back_open.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._restart_start_all_day_dining_style_1_back_open.logicBlock_position = function() {
+			var newLogicStatePosition;
+			if (
+				((player.getVariableValue('pos_fullscreen') == 0))
+			)
+			{
+				newLogicStatePosition = 0;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 1))
+			)
+			{
+				newLogicStatePosition = 1;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 2))
+			)
+			{
+				newLogicStatePosition = 2;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 3))
+			)
+			{
+				newLogicStatePosition = 3;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 4))
+			)
+			{
+				newLogicStatePosition = 4;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 5))
+			)
+			{
+				newLogicStatePosition = 5;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 6))
+			)
+			{
+				newLogicStatePosition = 6;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 7))
+			)
+			{
+				newLogicStatePosition = 7;
+			}
+			else {
+				newLogicStatePosition = -1;
+			}
+			if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me._restart_start_all_day_dining_style_1_back_open.style[domTransition]='left 0s, top 0s';
+				if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 0) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='0px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 1) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='32px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 2) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='96px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 3) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='160px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 4) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='160px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 5) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='160px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 6) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='192px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStatePosition == 7) {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='224px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+				else {
+					me._restart_start_all_day_dining_style_1_back_open.style.left='64px';
+					me._restart_start_all_day_dining_style_1_back_open.style.top='0px';
+				}
+			}
+		}
+		me._restart_start_all_day_dining_style_1_back_open.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((me.ggUserdata.title == "Dining Style 1 - Back Open"))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._restart_start_all_day_dining_style_1_back_open.style[domTransition]='left 0s, top 0s';
+				if (me._restart_start_all_day_dining_style_1_back_open.ggCurrentLogicStateVisible == 0) {
+					me._restart_start_all_day_dining_style_1_back_open.style.visibility=(Number(me._restart_start_all_day_dining_style_1_back_open.style.opacity)>0||!me._restart_start_all_day_dining_style_1_back_open.style.opacity)?'inherit':'hidden';
+					me._restart_start_all_day_dining_style_1_back_open.ggVisible=true;
+				}
+				else {
+					me._restart_start_all_day_dining_style_1_back_open.style.visibility="hidden";
+					me._restart_start_all_day_dining_style_1_back_open.ggVisible=false;
+				}
+			}
+		}
+		me._restart_start_all_day_dining_style_1_back_open.onclick=function (e) {
+			player.setPanTiltFov(15,0,70);
+		}
+		me._restart_start_all_day_dining_style_1_back_open.onmouseover=function (e) {
+			me._restart_start_all_day_dining_style_1_back_open__img.style.visibility='hidden';
+			me._restart_start_all_day_dining_style_1_back_open__imgo.style.visibility='inherit';
+		}
+		me._restart_start_all_day_dining_style_1_back_open.onmouseout=function (e) {
+			me._restart_start_all_day_dining_style_1_back_open__img.style.visibility='inherit';
+			me._restart_start_all_day_dining_style_1_back_open__imgo.style.visibility='hidden';
+		}
+		me._restart_start_all_day_dining_style_1_back_open.ggUpdatePosition=function (useTransition) {
+		}
+		me._controller_slider.appendChild(me._restart_start_all_day_dining_style_1_back_open);
+		el=me._restart_start_all_day_dining_style_1_back_closed=document.createElement('div');
+		els=me._restart_start_all_day_dining_style_1_back_closed__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZpZXdCb3g9Ii0yNDAgMzMyIDEzMCAxMzAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGJhc2VQcm9maWxlPSJ0aW55IiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiA8ZyBpZD0iTG'+
+			'F5ZXJfMV8xXyI+CiAgPHBhdGggZD0iTS0xNzUsMzQwLjljLTMxLDAtNTYuMSwyNS4xLTU2LjEsNTYuMXMyNS4xLDU2LjEsNTYuMSw1Ni4xYzMxLDAsNTYuMS0yNS4xLDU2LjEtNTYuMVMtMTQ0LDM0MC45LTE3NSwzNDAuOSYjeGQ7JiN4YTsmI3g5OyYjeDk7eiBNLTE1My45LDQyMy42Yy01LjgsNC42LTEzLjEsNy40LTIxLjEsNy40aDBjLTE4LjcsMC0zNC0xNS4yLTM0LTM0aC0wLjVoLTcuN2MtMC41LDAtMC44LTAuMi0xLjEtMC43Yy0wLjMtMC41LTAuMi0xLDAuMS0xLjMmI3hkOyYjeGE7JiN4OTsmI3g5O2wxMi43LTE3LjhjMC4zLTAuNCwwLjYtMC42LDEuMS0wLjZjMC40LDAsMC43LDAuMiwx'+
+			'LDAuNmwxMi44LDE3LjhjMC4zLDAuNCwwLjQsMC45LDAuMSwxLjNjLTAuMywwLjUtMC42LDAuNy0xLjEsMC43aC03LjZoLTAuNyYjeGQ7JiN4YTsmI3g5OyYjeDk7YzAsMTMuOCwxMS4yLDI1LDI1LDI1aDBjNS44LDAsMTEuMS0yLDE1LjMtNS4zYzAuNi0wLjUsMS40LTAuNCwyLDAuMmMwLjUsMC41LDMuMSwzLjUsNCw0LjRDLTE1My4xLDQyMi0xNTMuMiw0MjMuMS0xNTMuOSw0MjMuNnomI3hkOyYjeGE7JiN4OTsmI3g5OyBNLTE3OSwzOTdjMC0yLjIsMS44LTQsNC00YzIuMiwwLDQsMS44LDQsNGMwLDIuMi0xLjgsNC00LDRDLTE3Ny4yLDQwMS0xNzksMzk5LjItMTc5LDM5N3ogTS0xNDQuNSw0MT'+
+			'YuOSYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjMsMC40LTAuNiwwLjYtMS4xLDAuNmMtMC40LDAtMC43LTAuMi0xLTAuNmwtMTIuOC0xNy44Yy0wLjMtMC40LTAuNC0wLjktMC4xLTEuM2MwLjMtMC41LDAuNi0wLjcsMS4xLTAuN2g3LjZoMC43JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMC0xMy44LTExLjItMjUtMjUtMjVoMGMtNS44LDAtMTEuMSwyLTE1LjMsNS4zYy0wLjYsMC41LTEuNCwwLjQtMi0wLjJjLTAuNS0wLjUtMy4xLTMuNS00LTQuNGMtMC42LTAuNy0wLjYtMS44LDAuMS0yLjMmI3hkOyYjeGE7JiN4OTsmI3g5O2M1LjgtNC42LDEzLjEtNy40LDIxLjEtNy40aDBjMTguNywwLDM0LDE1LjIs'+
+			'MzQsMzRoMC41aDcuN2MwLjUsMCwwLjgsMC4yLDEuMSwwLjdjMC4zLDAuNSwwLjIsMS0wLjEsMS4zTC0xNDQuNSw0MTYuOXoiIGZpbGw9IiMwMDAwMDAiLz4KIDwvZz4KIDxnIGlkPSJMYXllcl8yIj4KICA8cGF0aCBkPSJNLTE1My43LDQyMS4zYy0wLjgtMC45LTMuNS0zLjktNC00LjRjLTAuNi0wLjYtMS40LTAuNi0yLTAuMmMtNC4yLDMuMy05LjUsNS4zLTE1LjMsNS4zaDAmI3hkOyYjeGE7JiN4OTsmI3g5O2MtMTMuOCwwLTI1LTExLjItMjUtMjVoMC43aDcuNmMwLjUsMCwwLjgtMC4yLDEuMS0wLjdjMC4zLTAuNSwwLjItMS0wLjEtMS4zbC0xMi44LTE3LjhjLTAuMy0wLjQtMC42LTAuNi0xLT'+
+			'AuNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjgsMC4yLTEuMSwwLjZsLTEyLjcsMTcuOGMtMC4zLDAuNC0wLjQsMC45LTAuMSwxLjNjMC4zLDAuNSwwLjYsMC43LDEuMSwwLjdoNy43aDAuNWMwLDE4LjcsMTUuMiwzNCwzNCwzNGgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjOCwwLDE1LjMtMi44LDIxLjEtNy40Qy0xNTMuMiw0MjMuMS0xNTMuMSw0MjItMTUzLjcsNDIxLjN6IiBmaWxsPSIjRkZGRkZGIi8+CiAgPHBhdGggZD0iTS0xMzEuNywzOTcuN2MtMC4zLTAuNS0wLjYtMC43LTEuMS0wLjdoLTcuN2gtMC41YzAtMTguNy0xNS4yLTM0LTM0LTM0aDBjLTgsMC0xNS4zLDIuOC0yMS4xLDcu'+
+			'NCYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjcsMC41LTAuOCwxLjYtMC4xLDIuM2MwLjgsMC45LDMuNSwzLjksNCw0LjRjMC42LDAuNiwxLjQsMC42LDIsMC4yYzQuMi0zLjMsOS41LTUuMywxNS4zLTUuM2gwYzEzLjgsMCwyNSwxMS4yLDI1LDI1aC0wLjcmI3hkOyYjeGE7JiN4OTsmI3g5O2gtNy42Yy0wLjUsMC0wLjgsMC4yLTEuMSwwLjdjLTAuMywwLjUtMC4yLDEsMC4xLDEuM2wxMi44LDE3LjhjMC4zLDAuNCwwLjYsMC42LDEsMC42YzAuNSwwLDAuOC0wLjIsMS4xLTAuNmwxMi43LTE3LjgmI3hkOyYjeGE7JiN4OTsmI3g5O0MtMTMxLjUsMzk4LjctMTMxLjQsMzk4LjItMTMxLjcsMzk3Ljd6Ii'+
+			'BmaWxsPSIjRkZGRkZGIi8+CiAgPGNpcmNsZSBjeT0iMzk3IiBjeD0iLTE3NSIgcj0iNCIgZmlsbD0iI0ZGRkZGRiIvPgogPC9nPgo8L3N2Zz4K';
+		me._restart_start_all_day_dining_style_1_back_closed__img.setAttribute('src',hs);
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		elo=me._restart_start_all_day_dining_style_1_back_closed__imgo=document.createElement('img');
+		elo.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZpZXdCb3g9Ii0yNDAgMzMyIDEzMCAxMzAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGJhc2VQcm9maWxlPSJ0aW55IiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiA8ZyBpZD0iTG'+
+			'F5ZXJfMV8xXyI+CiAgPHBhdGggZD0iTS0xNzUsMzM0LjdjLTM0LjQsMC02Mi40LDI3LjktNjIuNCw2Mi40czI3LjksNjIuNCw2Mi40LDYyLjRjMzQuNCwwLDYyLjQtMjcuOSw2Mi40LTYyLjQmI3hkOyYjeGE7JiN4OTsmI3g5O1MtMTQwLjYsMzM0LjctMTc1LDMzNC43eiBNLTE1MS41LDQyNi42Yy02LjQsNS4xLTE0LjYsOC4yLTIzLjUsOC4yaDBjLTIwLjgsMC0zNy43LTE2LjktMzcuNy0zNy43aC0wLjZoLTguNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjktMC4yLTEuMi0wLjdjLTAuMy0wLjUtMC4yLTEuMSwwLjEtMS41bDE0LjEtMTkuOGMwLjMtMC40LDAuNi0wLjYsMS4yLTAuNmMw'+
+			'LjQsMCwwLjcsMC4yLDEuMSwwLjZsMTQuMiwxOS44JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMC4zLDAuNCwwLjQsMSwwLjEsMS41Yy0wLjMsMC41LTAuNiwwLjctMS4yLDAuN2gtOC40aC0wLjdjMCwxNS4zLDEyLjQsMjcuNywyNy43LDI3LjdoMGM2LjQsMCwxMi4zLTIuMiwxNy01LjkmI3hkOyYjeGE7JiN4OTsmI3g5O2MwLjctMC41LDEuNi0wLjQsMi4yLDAuMmMwLjYsMC42LDMuNSwzLjgsNC40LDQuOUMtMTUwLjcsNDI0LjgtMTUwLjcsNDI2LTE1MS41LDQyNi42eiBNLTE3OS40LDM5N2MwLTIuNCwyLTQuNCw0LjQtNC40JiN4ZDsmI3hhOyYjeDk7JiN4OTtjMi40LDAsNC40LDIsNC40LDQuNGMwLD'+
+			'IuNC0yLDQuNC00LjQsNC40Qy0xNzcuNCw0MDEuNC0xNzkuNCwzOTkuNS0xNzkuNCwzOTd6IE0tMTQxLjEsNDE5LjFjLTAuMywwLjQtMC42LDAuNi0xLjIsMC42JiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTAuNCwwLTAuNy0wLjItMS4xLTAuNmwtMTQuMi0xOS44Yy0wLjMtMC40LTAuNC0xLTAuMS0xLjVjMC4zLTAuNSwwLjYtMC43LDEuMi0wLjdoOC40aDAuN2MwLTE1LjMtMTIuNC0yNy43LTI3LjctMjcuN2gwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTYuNCwwLTEyLjMsMi4yLTE3LDUuOWMtMC43LDAuNS0xLjYsMC40LTIuMi0wLjJjLTAuNi0wLjYtMy41LTMuOC00LjQtNC45Yy0wLjctMC44LTAuNi0y'+
+			'LDAuMi0yLjZjNi40LTUuMSwxNC42LTguMiwyMy41LTguMmgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjMjAuOCwwLDM3LjcsMTYuOSwzNy43LDM3LjdoMC42aDguNmMwLjUsMCwwLjksMC4yLDEuMiwwLjdjMC4zLDAuNSwwLjIsMS4xLTAuMSwxLjVMLTE0MS4xLDQxOS4xeiIgZmlsbD0iIzAwMDAwMCIvPgogPC9nPgogPGcgaWQ9IkxheWVyXzIiPgogIDxwYXRoIGQ9Ik0tMTUxLjQsNDI0Yy0wLjktMS0zLjktNC4zLTQuNC00LjljLTAuNi0wLjYtMS41LTAuNy0yLjItMC4yYy00LjcsMy43LTEwLjYsNS45LTE3LDUuOWgwJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTE1LjMsMC0yNy43LTEyLjQtMjcuNy0yNy'+
+			'43aDAuN2g4LjRjMC41LDAsMC45LTAuMiwxLjItMC43czAuMi0xLjEtMC4xLTEuNWwtMTQuMi0xOS44Yy0wLjMtMC40LTAuNi0wLjYtMS4xLTAuNiYjeGQ7JiN4YTsmI3g5OyYjeDk7Yy0wLjUsMC0wLjksMC4yLTEuMiwwLjZsLTE0LjEsMTkuOGMtMC4zLDAuNC0wLjQsMS0wLjEsMS41YzAuMywwLjUsMC42LDAuNywxLjIsMC43aDguNmgwLjZjMCwyMC44LDE2LjksMzcuNywzNy43LDM3LjdoMCYjeGQ7JiN4YTsmI3g5OyYjeDk7YzguOSwwLDE3LTMuMSwyMy41LTguMkMtMTUwLjcsNDI2LTE1MC43LDQyNC44LTE1MS40LDQyNHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8cGF0aCBkPSJNLTEyNi45LDM5'+
+			'Ny44Yy0wLjMtMC41LTAuNi0wLjctMS4yLTAuN2gtOC42aC0wLjZjMC0yMC44LTE2LjktMzcuNy0zNy43LTM3LjdoMGMtOC45LDAtMTcsMy4xLTIzLjUsOC4yJiN4ZDsmI3hhOyYjeDk7JiN4OTtjLTAuOCwwLjYtMC44LDEuOC0wLjIsMi42YzAuOSwxLDMuOSw0LjMsNC40LDQuOWMwLjYsMC42LDEuNSwwLjcsMi4yLDAuMmM0LjctMy43LDEwLjYtNS45LDE3LTUuOWgwYzE1LjMsMCwyNy43LDEyLjQsMjcuNywyNy43JiN4ZDsmI3hhOyYjeDk7JiN4OTtoLTAuN2gtOC40Yy0wLjUsMC0wLjksMC4yLTEuMiwwLjdjLTAuMywwLjUtMC4yLDEuMSwwLjEsMS41bDE0LjIsMTkuOGMwLjMsMC40LDAuNiwwLj'+
+			'YsMS4xLDAuNmMwLjUsMCwwLjktMC4yLDEuMi0wLjZsMTQuMS0xOS44JiN4ZDsmI3hhOyYjeDk7JiN4OTtDLTEyNi43LDM5OC45LTEyNi42LDM5OC4zLTEyNi45LDM5Ny44eiIgZmlsbD0iI0ZGRkZGRiIvPgogIDxjaXJjbGUgY3k9IjM5NyIgY3g9Ii0xNzUiIHI9IjQuNCIgZmlsbD0iI0ZGRkZGRiIvPgogPC9nPgo8L3N2Zz4K';
+		me._restart_start_all_day_dining_style_1_back_closed__imgo.setAttribute('src',hs);
+		elo.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;visibility:hidden;pointer-events:none;;');
+		elo['ondragstart']=function() { return false; };
+		el.appendChild(elo);
+		el.ggId="restart_start_All_Day_Dining Style 1 - Back Closed";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 32px;';
+		hs+='left : 64px;';
+		hs+='opacity : 0.5;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : hidden;';
+		hs+='width : 32px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._restart_start_all_day_dining_style_1_back_closed.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._restart_start_all_day_dining_style_1_back_closed.logicBlock_position = function() {
+			var newLogicStatePosition;
+			if (
+				((player.getVariableValue('pos_fullscreen') == 0))
+			)
+			{
+				newLogicStatePosition = 0;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 1))
+			)
+			{
+				newLogicStatePosition = 1;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 2))
+			)
+			{
+				newLogicStatePosition = 2;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 3))
+			)
+			{
+				newLogicStatePosition = 3;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 4))
+			)
+			{
+				newLogicStatePosition = 4;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 5))
+			)
+			{
+				newLogicStatePosition = 5;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 6))
+			)
+			{
+				newLogicStatePosition = 6;
+			}
+			else if (
+				((player.getVariableValue('pos_fullscreen') == 7))
+			)
+			{
+				newLogicStatePosition = 7;
+			}
+			else {
+				newLogicStatePosition = -1;
+			}
+			if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me._restart_start_all_day_dining_style_1_back_closed.style[domTransition]='left 0s, top 0s';
+				if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 0) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='0px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 1) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='32px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 2) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='96px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 3) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='160px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 4) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='160px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 5) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='160px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 6) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='192px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStatePosition == 7) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='224px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+				else {
+					me._restart_start_all_day_dining_style_1_back_closed.style.left='64px';
+					me._restart_start_all_day_dining_style_1_back_closed.style.top='0px';
+				}
+			}
+		}
+		me._restart_start_all_day_dining_style_1_back_closed.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((me.ggUserdata.title == "Dining Style 1 - Back Closed"))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._restart_start_all_day_dining_style_1_back_closed.style[domTransition]='left 0s, top 0s';
+				if (me._restart_start_all_day_dining_style_1_back_closed.ggCurrentLogicStateVisible == 0) {
+					me._restart_start_all_day_dining_style_1_back_closed.style.visibility=(Number(me._restart_start_all_day_dining_style_1_back_closed.style.opacity)>0||!me._restart_start_all_day_dining_style_1_back_closed.style.opacity)?'inherit':'hidden';
+					me._restart_start_all_day_dining_style_1_back_closed.ggVisible=true;
+				}
+				else {
+					me._restart_start_all_day_dining_style_1_back_closed.style.visibility="hidden";
+					me._restart_start_all_day_dining_style_1_back_closed.ggVisible=false;
+				}
+			}
+		}
+		me._restart_start_all_day_dining_style_1_back_closed.onclick=function (e) {
+			player.setPanTiltFov(15,0,70);
+		}
+		me._restart_start_all_day_dining_style_1_back_closed.onmouseover=function (e) {
+			me._restart_start_all_day_dining_style_1_back_closed__img.style.visibility='hidden';
+			me._restart_start_all_day_dining_style_1_back_closed__imgo.style.visibility='inherit';
+		}
+		me._restart_start_all_day_dining_style_1_back_closed.onmouseout=function (e) {
+			me._restart_start_all_day_dining_style_1_back_closed__img.style.visibility='inherit';
+			me._restart_start_all_day_dining_style_1_back_closed__imgo.style.visibility='hidden';
+		}
+		me._restart_start_all_day_dining_style_1_back_closed.ggUpdatePosition=function (useTransition) {
+		}
+		me._controller_slider.appendChild(me._restart_start_all_day_dining_style_1_back_closed);
 		el=me._restart_start_all_day_dining_style_2_front_open=document.createElement('div');
 		els=me._restart_start_all_day_dining_style_2_front_open__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
@@ -36222,6 +36795,12 @@ function pano2vrSkin(player,base) {
 	me._restart_start_suite_bedroom.logicBlock_visible();
 	me._restart_start_suite.logicBlock_position();
 	me._restart_start_suite.logicBlock_visible();
+	me._restart_start_all_day_dining_option_2_back_closed.logicBlock_position();
+	me._restart_start_all_day_dining_option_2_back_closed.logicBlock_visible();
+	me._restart_start_all_day_dining_style_1_back_open.logicBlock_position();
+	me._restart_start_all_day_dining_style_1_back_open.logicBlock_visible();
+	me._restart_start_all_day_dining_style_1_back_closed.logicBlock_position();
+	me._restart_start_all_day_dining_style_1_back_closed.logicBlock_visible();
 	me._restart_start_all_day_dining_style_2_front_open.logicBlock_position();
 	me._restart_start_all_day_dining_style_2_front_open.logicBlock_visible();
 	me._restart_start_all_day_dining_style_2_front_closed.logicBlock_position();
@@ -36286,7 +36865,7 @@ function pano2vrSkin(player,base) {
 	player.addListener('tilesrequested', function(args) { me._loading_multires.logicBlock_visible(); });
 	player.addListener('fullscreenenter', function(args) { me._fullscreen_off.logicBlock_alpha();me._fullscreen.logicBlock_alpha(); });
 	player.addListener('fullscreenexit', function(args) { me._fullscreen_off.logicBlock_alpha();me._fullscreen.logicBlock_alpha(); });
-	player.addListener('changenode', function(args) { me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._video_popup_vimeo.logicBlock_visible();me._popup_video_vimeo.logicBlock_visible();me._video_popup_controls_url.logicBlock_visible();me._video_popup_url.logicBlock_visible();me._popup_video_url.logicBlock_visible();me._video_popup_controls_file.logicBlock_visible();me._video_popup_file.logicBlock_visible();me._popup_video_file.logicBlock_visible();me._image_popup.logicBlock_visible();me._popup_image.logicBlock_visible();me._information.logicBlock_visible();me._userdata.logicBlock_visible();me._web_page.logicBlock_visible();me._loading.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_position();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._screentint.logicBlock_alpha();me._loading_multires.logicBlock_visible();me._menu_button.logicBlock_position();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._close.logicBlock_visible();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_bg.logicBlock_position();me._controller_bg.logicBlock_size();me._controller_bg.logicBlock_visible();me._controller_slider.logicBlock_position();me._controller_slider.logicBlock_alpha();me._enter_vr.logicBlock_position();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._projection_buttons.logicBlock_position();me._projection_buttons.logicBlock_visible();me._thumbnail.logicBlock_position();me._thumbnail.logicBlock_visible();me._thumbnail_hide_button_show.logicBlock_alpha();me._thumbnail_show_button_show.logicBlock_alpha();me._info.logicBlock_position();me._info.logicBlock_visible();me._autorotate_buttons.logicBlock_position();me._autorotate_buttons.logicBlock_visible();me._autorotate_stop.logicBlock_alpha();me._restart_start_fitness.logicBlock_position();me._restart_start_fitness.logicBlock_visible();me._restart_start_break_out_area.logicBlock_position();me._restart_start_break_out_area.logicBlock_visible();me._restart_start_meeting_room_2.logicBlock_position();me._restart_start_meeting_room_2.logicBlock_visible();me._restart_start_meeting_room_1.logicBlock_position();me._restart_start_meeting_room_1.logicBlock_visible();me._restart_start_boardroom.logicBlock_position();me._restart_start_boardroom.logicBlock_visible();me._restart_start_corridor.logicBlock_position();me._restart_start_corridor.logicBlock_visible();me._restart_start_lift_lobby.logicBlock_position();me._restart_start_lift_lobby.logicBlock_visible();me._restart_start_king_winter.logicBlock_position();me._restart_start_king_winter.logicBlock_visible();me._restart_start_king_autumn.logicBlock_position();me._restart_start_king_autumn.logicBlock_visible();me._restart_start_king_summer.logicBlock_position();me._restart_start_king_summer.logicBlock_visible();me._restart_start_king_spring.logicBlock_position();me._restart_start_king_spring.logicBlock_visible();me._restart_start_twin_bathroom_winter.logicBlock_position();me._restart_start_twin_bathroom_winter.logicBlock_visible();me._restart_start_twin_winter.logicBlock_position();me._restart_start_twin_winter.logicBlock_visible();me._restart_start_twin_bathroom_autumn.logicBlock_position();me._restart_start_twin_bathroom_autumn.logicBlock_visible();me._restart_start_twin_autumn.logicBlock_position();me._restart_start_twin_autumn.logicBlock_visible();me._restart_start_twin_bathroom_summer.logicBlock_position();me._restart_start_twin_bathroom_summer.logicBlock_visible();me._restart_start_twin_summer.logicBlock_position();me._restart_start_twin_summer.logicBlock_visible();me._restart_start_twin_bathroom_spring.logicBlock_position();me._restart_start_twin_bathroom_spring.logicBlock_visible();me._restart_start_twin_spring.logicBlock_position();me._restart_start_twin_spring.logicBlock_visible();me._restart_start_suite_restroom.logicBlock_position();me._restart_start_suite_restroom.logicBlock_visible();me._restart_start_suite_livingroom.logicBlock_position();me._restart_start_suite_livingroom.logicBlock_visible();me._restart_start_suite_bedroom.logicBlock_position();me._restart_start_suite_bedroom.logicBlock_visible();me._restart_start_suite.logicBlock_position();me._restart_start_suite.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_open.logicBlock_position();me._restart_start_all_day_dining_style_2_front_open.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_position();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_visible();me._restart_start_all_day_dining_style_1_front_open.logicBlock_position();me._restart_start_all_day_dining_style_1_front_open.logicBlock_visible();me._restart_start_all_day_dinning_option_1.logicBlock_position();me._restart_start_all_day_dinning_option_1.logicBlock_visible();me._restart_start_social_space.logicBlock_position();me._restart_start_social_space.logicBlock_visible();me._restart_start_lobby.logicBlock_position();me._restart_start_lobby.logicBlock_visible();me._restart_start_shop.logicBlock_position();me._restart_start_shop.logicBlock_visible();me._restart_start_entrance.logicBlock_position();me._restart_start_entrance.logicBlock_visible();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._roomnamemaplevel7.logicBlock_visible();me._roomnamemaplevel3.logicBlock_visible();me._roomnamemaplevel1.logicBlock_visible();me._roomnamemapsuite.logicBlock_visible();me._roomnamemapking.logicBlock_visible();me._roomnamemaptwinwinter.logicBlock_visible();me._roomnamemaptwinautumn.logicBlock_visible();me._roomnamemaptwinsummer.logicBlock_visible();me._roomnamemaptwinspring.logicBlock_visible();me._option_lable_tablet.logicBlock_visible();me._style_lable_tablet.logicBlock_visible();me._category_dinning_cloner_tablet.logicBlock_visible();me._category_king_cloner_tablet.logicBlock_visible();me._category_twin_cloner_tablet.logicBlock_visible();me._category_twin_cloner_restroom_tablet.logicBlock_visible();me._menu_background_mobile.logicBlock_alpha();me._option_lable_mobile.logicBlock_visible();me._style_lable_mobile.logicBlock_visible();me._category_dinning_cloner_mobile.logicBlock_visible();me._category_king_cloner_mobile.logicBlock_visible();me._category_twin_cloner_mobile.logicBlock_visible();me._category_twin_cloner_restroom_mobile.logicBlock_visible();me._menu_background.logicBlock_alpha();me._option_lable.logicBlock_visible();me._style_lable.logicBlock_visible();me._category_dinning_cloner.logicBlock_visible();me._category_suite_cloner.logicBlock_visible();me._category_king_cloner.logicBlock_visible();me._category_twin_cloner.logicBlock_visible();me._category_twin_cloner_restroom.logicBlock_visible();me._open_menu_tablet_1.logicBlock_angle();me._open_menu_mobile.logicBlock_position();me._open_menu_mobile.logicBlock_angle();me._open_menu.logicBlock_position();me._open_menu.logicBlock_angle(); });
+	player.addListener('changenode', function(args) { me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._video_popup_vimeo.logicBlock_visible();me._popup_video_vimeo.logicBlock_visible();me._video_popup_controls_url.logicBlock_visible();me._video_popup_url.logicBlock_visible();me._popup_video_url.logicBlock_visible();me._video_popup_controls_file.logicBlock_visible();me._video_popup_file.logicBlock_visible();me._popup_video_file.logicBlock_visible();me._image_popup.logicBlock_visible();me._popup_image.logicBlock_visible();me._information.logicBlock_visible();me._userdata.logicBlock_visible();me._web_page.logicBlock_visible();me._loading.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_position();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._screentint.logicBlock_alpha();me._loading_multires.logicBlock_visible();me._menu_button.logicBlock_position();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._close.logicBlock_visible();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_bg.logicBlock_position();me._controller_bg.logicBlock_size();me._controller_bg.logicBlock_visible();me._controller_slider.logicBlock_position();me._controller_slider.logicBlock_alpha();me._enter_vr.logicBlock_position();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._projection_buttons.logicBlock_position();me._projection_buttons.logicBlock_visible();me._thumbnail.logicBlock_position();me._thumbnail.logicBlock_visible();me._thumbnail_hide_button_show.logicBlock_alpha();me._thumbnail_show_button_show.logicBlock_alpha();me._info.logicBlock_position();me._info.logicBlock_visible();me._autorotate_buttons.logicBlock_position();me._autorotate_buttons.logicBlock_visible();me._autorotate_stop.logicBlock_alpha();me._restart_start_fitness.logicBlock_position();me._restart_start_fitness.logicBlock_visible();me._restart_start_break_out_area.logicBlock_position();me._restart_start_break_out_area.logicBlock_visible();me._restart_start_meeting_room_2.logicBlock_position();me._restart_start_meeting_room_2.logicBlock_visible();me._restart_start_meeting_room_1.logicBlock_position();me._restart_start_meeting_room_1.logicBlock_visible();me._restart_start_boardroom.logicBlock_position();me._restart_start_boardroom.logicBlock_visible();me._restart_start_corridor.logicBlock_position();me._restart_start_corridor.logicBlock_visible();me._restart_start_lift_lobby.logicBlock_position();me._restart_start_lift_lobby.logicBlock_visible();me._restart_start_king_winter.logicBlock_position();me._restart_start_king_winter.logicBlock_visible();me._restart_start_king_autumn.logicBlock_position();me._restart_start_king_autumn.logicBlock_visible();me._restart_start_king_summer.logicBlock_position();me._restart_start_king_summer.logicBlock_visible();me._restart_start_king_spring.logicBlock_position();me._restart_start_king_spring.logicBlock_visible();me._restart_start_twin_bathroom_winter.logicBlock_position();me._restart_start_twin_bathroom_winter.logicBlock_visible();me._restart_start_twin_winter.logicBlock_position();me._restart_start_twin_winter.logicBlock_visible();me._restart_start_twin_bathroom_autumn.logicBlock_position();me._restart_start_twin_bathroom_autumn.logicBlock_visible();me._restart_start_twin_autumn.logicBlock_position();me._restart_start_twin_autumn.logicBlock_visible();me._restart_start_twin_bathroom_summer.logicBlock_position();me._restart_start_twin_bathroom_summer.logicBlock_visible();me._restart_start_twin_summer.logicBlock_position();me._restart_start_twin_summer.logicBlock_visible();me._restart_start_twin_bathroom_spring.logicBlock_position();me._restart_start_twin_bathroom_spring.logicBlock_visible();me._restart_start_twin_spring.logicBlock_position();me._restart_start_twin_spring.logicBlock_visible();me._restart_start_suite_restroom.logicBlock_position();me._restart_start_suite_restroom.logicBlock_visible();me._restart_start_suite_livingroom.logicBlock_position();me._restart_start_suite_livingroom.logicBlock_visible();me._restart_start_suite_bedroom.logicBlock_position();me._restart_start_suite_bedroom.logicBlock_visible();me._restart_start_suite.logicBlock_position();me._restart_start_suite.logicBlock_visible();me._restart_start_all_day_dining_option_2_back_closed.logicBlock_position();me._restart_start_all_day_dining_option_2_back_closed.logicBlock_visible();me._restart_start_all_day_dining_style_1_back_open.logicBlock_position();me._restart_start_all_day_dining_style_1_back_open.logicBlock_visible();me._restart_start_all_day_dining_style_1_back_closed.logicBlock_position();me._restart_start_all_day_dining_style_1_back_closed.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_open.logicBlock_position();me._restart_start_all_day_dining_style_2_front_open.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_position();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_visible();me._restart_start_all_day_dining_style_1_front_open.logicBlock_position();me._restart_start_all_day_dining_style_1_front_open.logicBlock_visible();me._restart_start_all_day_dinning_option_1.logicBlock_position();me._restart_start_all_day_dinning_option_1.logicBlock_visible();me._restart_start_social_space.logicBlock_position();me._restart_start_social_space.logicBlock_visible();me._restart_start_lobby.logicBlock_position();me._restart_start_lobby.logicBlock_visible();me._restart_start_shop.logicBlock_position();me._restart_start_shop.logicBlock_visible();me._restart_start_entrance.logicBlock_position();me._restart_start_entrance.logicBlock_visible();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._roomnamemaplevel7.logicBlock_visible();me._roomnamemaplevel3.logicBlock_visible();me._roomnamemaplevel1.logicBlock_visible();me._roomnamemapsuite.logicBlock_visible();me._roomnamemapking.logicBlock_visible();me._roomnamemaptwinwinter.logicBlock_visible();me._roomnamemaptwinautumn.logicBlock_visible();me._roomnamemaptwinsummer.logicBlock_visible();me._roomnamemaptwinspring.logicBlock_visible();me._option_lable_tablet.logicBlock_visible();me._style_lable_tablet.logicBlock_visible();me._category_dinning_cloner_tablet.logicBlock_visible();me._category_king_cloner_tablet.logicBlock_visible();me._category_twin_cloner_tablet.logicBlock_visible();me._category_twin_cloner_restroom_tablet.logicBlock_visible();me._menu_background_mobile.logicBlock_alpha();me._option_lable_mobile.logicBlock_visible();me._style_lable_mobile.logicBlock_visible();me._category_dinning_cloner_mobile.logicBlock_visible();me._category_king_cloner_mobile.logicBlock_visible();me._category_twin_cloner_mobile.logicBlock_visible();me._category_twin_cloner_restroom_mobile.logicBlock_visible();me._menu_background.logicBlock_alpha();me._option_lable.logicBlock_visible();me._style_lable.logicBlock_visible();me._category_dinning_cloner.logicBlock_visible();me._category_suite_cloner.logicBlock_visible();me._category_king_cloner.logicBlock_visible();me._category_twin_cloner.logicBlock_visible();me._category_twin_cloner_restroom.logicBlock_visible();me._open_menu_tablet_1.logicBlock_angle();me._open_menu_mobile.logicBlock_position();me._open_menu_mobile.logicBlock_angle();me._open_menu.logicBlock_position();me._open_menu.logicBlock_angle(); });
 	player.addListener('configloaded', function(args) { me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me._gyro.logicBlock_visible();me._thumbnail.logicBlock_visible();me._fullscreen_buttons.logicBlock_visible(); });
 	player.addListener('projectionchanged', function(args) { me._rectilinear.logicBlock_alpha();me._fisheye.logicBlock_alpha();me._stereographic.logicBlock_alpha(); });
 	player.addListener('autorotatechanged', function(args) { me._autorotate_stop.logicBlock_alpha(); });
@@ -36294,7 +36873,7 @@ function pano2vrSkin(player,base) {
 	player.addListener('gyrochanged', function(args) { me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha(); });
 	player.addListener('vrchanged', function(args) { me._enter_vr.logicBlock_visible(); });
 	player.addListener('hastouch', function(args) { me.__360image_gyro.logicBlock_visible(); });
-	player.addListener('activehotspotchanged', function(args) { me._restart_start_fitness.logicBlock_visible();me._restart_start_break_out_area.logicBlock_visible();me._restart_start_meeting_room_2.logicBlock_visible();me._restart_start_meeting_room_1.logicBlock_visible();me._restart_start_boardroom.logicBlock_visible();me._restart_start_corridor.logicBlock_visible();me._restart_start_lift_lobby.logicBlock_visible();me._restart_start_king_winter.logicBlock_visible();me._restart_start_king_autumn.logicBlock_visible();me._restart_start_king_summer.logicBlock_visible();me._restart_start_king_spring.logicBlock_visible();me._restart_start_twin_bathroom_winter.logicBlock_visible();me._restart_start_twin_winter.logicBlock_visible();me._restart_start_twin_bathroom_autumn.logicBlock_visible();me._restart_start_twin_autumn.logicBlock_visible();me._restart_start_twin_bathroom_summer.logicBlock_visible();me._restart_start_twin_summer.logicBlock_visible();me._restart_start_twin_bathroom_spring.logicBlock_visible();me._restart_start_twin_spring.logicBlock_visible();me._restart_start_suite_restroom.logicBlock_visible();me._restart_start_suite_livingroom.logicBlock_visible();me._restart_start_suite_bedroom.logicBlock_visible();me._restart_start_suite.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_open.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_visible();me._restart_start_all_day_dining_style_1_front_open.logicBlock_visible();me._restart_start_all_day_dinning_option_1.logicBlock_visible();me._restart_start_social_space.logicBlock_visible();me._restart_start_lobby.logicBlock_visible();me._restart_start_shop.logicBlock_visible();me._restart_start_entrance.logicBlock_visible();me._roomnamemaplevel7.logicBlock_visible();me._roomnamemaplevel3.logicBlock_visible();me._roomnamemaplevel1.logicBlock_visible();me._roomnamemapsuite.logicBlock_visible();me._roomnamemapking.logicBlock_visible();me._roomnamemaptwinwinter.logicBlock_visible();me._roomnamemaptwinautumn.logicBlock_visible();me._roomnamemaptwinsummer.logicBlock_visible();me._roomnamemaptwinspring.logicBlock_visible();me._option_lable_tablet.logicBlock_visible();me._style_lable_tablet.logicBlock_visible();me._category_dinning_cloner_tablet.logicBlock_visible();me._category_king_cloner_tablet.logicBlock_visible();me._category_twin_cloner_tablet.logicBlock_visible();me._category_twin_cloner_restroom_tablet.logicBlock_visible();me._option_lable_mobile.logicBlock_visible();me._style_lable_mobile.logicBlock_visible();me._category_dinning_cloner_mobile.logicBlock_visible();me._category_king_cloner_mobile.logicBlock_visible();me._category_twin_cloner_mobile.logicBlock_visible();me._category_twin_cloner_restroom_mobile.logicBlock_visible();me._option_lable.logicBlock_visible();me._style_lable.logicBlock_visible();me._category_dinning_cloner.logicBlock_visible();me._category_suite_cloner.logicBlock_visible();me._category_king_cloner.logicBlock_visible();me._category_twin_cloner.logicBlock_visible();me._category_twin_cloner_restroom.logicBlock_visible(); });
+	player.addListener('activehotspotchanged', function(args) { me._restart_start_fitness.logicBlock_visible();me._restart_start_break_out_area.logicBlock_visible();me._restart_start_meeting_room_2.logicBlock_visible();me._restart_start_meeting_room_1.logicBlock_visible();me._restart_start_boardroom.logicBlock_visible();me._restart_start_corridor.logicBlock_visible();me._restart_start_lift_lobby.logicBlock_visible();me._restart_start_king_winter.logicBlock_visible();me._restart_start_king_autumn.logicBlock_visible();me._restart_start_king_summer.logicBlock_visible();me._restart_start_king_spring.logicBlock_visible();me._restart_start_twin_bathroom_winter.logicBlock_visible();me._restart_start_twin_winter.logicBlock_visible();me._restart_start_twin_bathroom_autumn.logicBlock_visible();me._restart_start_twin_autumn.logicBlock_visible();me._restart_start_twin_bathroom_summer.logicBlock_visible();me._restart_start_twin_summer.logicBlock_visible();me._restart_start_twin_bathroom_spring.logicBlock_visible();me._restart_start_twin_spring.logicBlock_visible();me._restart_start_suite_restroom.logicBlock_visible();me._restart_start_suite_livingroom.logicBlock_visible();me._restart_start_suite_bedroom.logicBlock_visible();me._restart_start_suite.logicBlock_visible();me._restart_start_all_day_dining_option_2_back_closed.logicBlock_visible();me._restart_start_all_day_dining_style_1_back_open.logicBlock_visible();me._restart_start_all_day_dining_style_1_back_closed.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_open.logicBlock_visible();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_visible();me._restart_start_all_day_dining_style_1_front_open.logicBlock_visible();me._restart_start_all_day_dinning_option_1.logicBlock_visible();me._restart_start_social_space.logicBlock_visible();me._restart_start_lobby.logicBlock_visible();me._restart_start_shop.logicBlock_visible();me._restart_start_entrance.logicBlock_visible();me._roomnamemaplevel7.logicBlock_visible();me._roomnamemaplevel3.logicBlock_visible();me._roomnamemaplevel1.logicBlock_visible();me._roomnamemapsuite.logicBlock_visible();me._roomnamemapking.logicBlock_visible();me._roomnamemaptwinwinter.logicBlock_visible();me._roomnamemaptwinautumn.logicBlock_visible();me._roomnamemaptwinsummer.logicBlock_visible();me._roomnamemaptwinspring.logicBlock_visible();me._option_lable_tablet.logicBlock_visible();me._style_lable_tablet.logicBlock_visible();me._category_dinning_cloner_tablet.logicBlock_visible();me._category_king_cloner_tablet.logicBlock_visible();me._category_twin_cloner_tablet.logicBlock_visible();me._category_twin_cloner_restroom_tablet.logicBlock_visible();me._option_lable_mobile.logicBlock_visible();me._style_lable_mobile.logicBlock_visible();me._category_dinning_cloner_mobile.logicBlock_visible();me._category_king_cloner_mobile.logicBlock_visible();me._category_twin_cloner_mobile.logicBlock_visible();me._category_twin_cloner_restroom_mobile.logicBlock_visible();me._option_lable.logicBlock_visible();me._style_lable.logicBlock_visible();me._category_dinning_cloner.logicBlock_visible();me._category_suite_cloner.logicBlock_visible();me._category_king_cloner.logicBlock_visible();me._category_twin_cloner.logicBlock_visible();me._category_twin_cloner_restroom.logicBlock_visible(); });
 	player.addListener('varchanged_vis_video_popup_youtube', function(args) { me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._thumbnail_menu.logicBlock_position();me._screentint.logicBlock_alpha();me._menu_button.logicBlock_position();me._close.logicBlock_visible();me._controller.logicBlock_position(); });
 	player.addListener('varchanged_vis_video_popup_vimeo', function(args) { me._video_popup_vimeo.logicBlock_visible();me._popup_video_vimeo.logicBlock_visible();me._thumbnail_menu.logicBlock_position();me._screentint.logicBlock_alpha();me._menu_button.logicBlock_position();me._close.logicBlock_visible();me._controller.logicBlock_position(); });
 	player.addListener('varchanged_vis_video_popup_url', function(args) { me._video_popup_controls_url.logicBlock_visible();me._video_popup_url.logicBlock_visible();me._popup_video_url.logicBlock_visible();me._thumbnail_menu.logicBlock_position();me._screentint.logicBlock_alpha();me._menu_button.logicBlock_position();me._close.logicBlock_visible();me._controller.logicBlock_position(); });
@@ -36324,7 +36903,7 @@ function pano2vrSkin(player,base) {
 	player.addListener('varchanged_pos_information', function(args) { me._info.logicBlock_position(); });
 	player.addListener('varchanged_opt_autorotate', function(args) { me._autorotate_buttons.logicBlock_visible(); });
 	player.addListener('varchanged_pos_autorotate', function(args) { me._autorotate_buttons.logicBlock_position(); });
-	player.addListener('varchanged_pos_fullscreen', function(args) { me._restart_start_fitness.logicBlock_position();me._restart_start_break_out_area.logicBlock_position();me._restart_start_meeting_room_2.logicBlock_position();me._restart_start_meeting_room_1.logicBlock_position();me._restart_start_boardroom.logicBlock_position();me._restart_start_corridor.logicBlock_position();me._restart_start_lift_lobby.logicBlock_position();me._restart_start_king_winter.logicBlock_position();me._restart_start_king_autumn.logicBlock_position();me._restart_start_king_summer.logicBlock_position();me._restart_start_king_spring.logicBlock_position();me._restart_start_twin_bathroom_winter.logicBlock_position();me._restart_start_twin_winter.logicBlock_position();me._restart_start_twin_bathroom_autumn.logicBlock_position();me._restart_start_twin_autumn.logicBlock_position();me._restart_start_twin_bathroom_summer.logicBlock_position();me._restart_start_twin_summer.logicBlock_position();me._restart_start_twin_bathroom_spring.logicBlock_position();me._restart_start_twin_spring.logicBlock_position();me._restart_start_suite_restroom.logicBlock_position();me._restart_start_suite_livingroom.logicBlock_position();me._restart_start_suite_bedroom.logicBlock_position();me._restart_start_suite.logicBlock_position();me._restart_start_all_day_dining_style_2_front_open.logicBlock_position();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_position();me._restart_start_all_day_dining_style_1_front_open.logicBlock_position();me._restart_start_all_day_dinning_option_1.logicBlock_position();me._restart_start_social_space.logicBlock_position();me._restart_start_lobby.logicBlock_position();me._restart_start_shop.logicBlock_position();me._restart_start_entrance.logicBlock_position();me._fullscreen_buttons.logicBlock_position(); });
+	player.addListener('varchanged_pos_fullscreen', function(args) { me._restart_start_fitness.logicBlock_position();me._restart_start_break_out_area.logicBlock_position();me._restart_start_meeting_room_2.logicBlock_position();me._restart_start_meeting_room_1.logicBlock_position();me._restart_start_boardroom.logicBlock_position();me._restart_start_corridor.logicBlock_position();me._restart_start_lift_lobby.logicBlock_position();me._restart_start_king_winter.logicBlock_position();me._restart_start_king_autumn.logicBlock_position();me._restart_start_king_summer.logicBlock_position();me._restart_start_king_spring.logicBlock_position();me._restart_start_twin_bathroom_winter.logicBlock_position();me._restart_start_twin_winter.logicBlock_position();me._restart_start_twin_bathroom_autumn.logicBlock_position();me._restart_start_twin_autumn.logicBlock_position();me._restart_start_twin_bathroom_summer.logicBlock_position();me._restart_start_twin_summer.logicBlock_position();me._restart_start_twin_bathroom_spring.logicBlock_position();me._restart_start_twin_spring.logicBlock_position();me._restart_start_suite_restroom.logicBlock_position();me._restart_start_suite_livingroom.logicBlock_position();me._restart_start_suite_bedroom.logicBlock_position();me._restart_start_suite.logicBlock_position();me._restart_start_all_day_dining_option_2_back_closed.logicBlock_position();me._restart_start_all_day_dining_style_1_back_open.logicBlock_position();me._restart_start_all_day_dining_style_1_back_closed.logicBlock_position();me._restart_start_all_day_dining_style_2_front_open.logicBlock_position();me._restart_start_all_day_dining_style_2_front_closed.logicBlock_position();me._restart_start_all_day_dining_style_1_front_open.logicBlock_position();me._restart_start_all_day_dinning_option_1.logicBlock_position();me._restart_start_social_space.logicBlock_position();me._restart_start_lobby.logicBlock_position();me._restart_start_shop.logicBlock_position();me._restart_start_entrance.logicBlock_position();me._fullscreen_buttons.logicBlock_position(); });
 	player.addListener('varchanged_opt_fullscreen', function(args) { me._fullscreen_buttons.logicBlock_visible(); });
 	player.addListener('varchanged_opt_zoom', function(args) { me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible(); });
 	player.addListener('changenode', function(args) { me._thumbnail_cloner_mobile.callChildLogicBlocks_changenode();me._thumbnail_cloner.callChildLogicBlocks_changenode(); });
